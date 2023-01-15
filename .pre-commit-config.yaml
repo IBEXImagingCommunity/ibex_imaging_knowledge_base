@@ -1,0 +1,19 @@
+# .pre-commit-config.yaml
+# for details see https://pre-commit.com
+# for list of available hooks see https://pre-commit.com/hooks.html
+#
+# Preclude commits that do not conform to various criteria.
+
+fail_fast: true
+
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.3.0
+  hooks: # check for large files, in our case images, should commit with git-lfs
+   - id: check-added-large-files
+     args: ['--maxkb=300']
+   - id: detect-aws-credentials
+     args: ['--allow-missing-credentials'] # allow hook to pass when no credentials are detected
+   - id: detect-private-key
+
+

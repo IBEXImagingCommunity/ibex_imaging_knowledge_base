@@ -1,0 +1,39 @@
+name: IBEX Knowledge-Base Data Validation
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  preliminary_test: # run all pre-commit tests (see .pre-commit-config.yaml)
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.10"
+    - name: Run pre-commit tests 
+      run: |
+        pip install pre-commit
+        pre-commit run --all-files
+  validate_zenodo_json:
+    needs: preliminary_test
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.10"
+    - name: Install dependencies and validate .zenodo.json file
+      run: |
+        pip install --upgrade pip
+        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.2.0/ibex_imaging_knowledge_base_utilities-0.2.0-py3-none-any.whl
+        validate_zenodo_json .zenodo.json

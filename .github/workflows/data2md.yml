@@ -1,0 +1,47 @@
+name: Data to Markdown
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - data/publications.bib
+      - data/ibex.csl
+      - data/reagent_resources.csv
+      - data/index.md.in
+  # Enable manual running of workflow
+  workflow_dispatch:
+jobs:
+  data_2_md:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.10"
+    - name: Install dependencies
+      run: |
+        brew update
+        brew install pandoc
+        pip install --upgrade pip
+        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.2.0/ibex_imaging_knowledge_base_utilities-0.2.0-py3-none-any.whl
+    - name: Convert bibliography to markdown
+      run: |
+        pandoc --version
+        bib2md data/publications.bib data/ibex.csl docs/publications.md
+    - name: Convert reagent resources csv to markdown
+      run: |
+        reagent_resources_csv_2_md_url data/reagent_resources.csv docs/supporting_material data/vendor_urls.json
+    - name: Update the index.md file statistics
+      run: |
+        update_index_md_stats data/index.md.in data/reagent_resources.csv docs/index.md
+    - name: Commit and push
+      run: |
+        git config --local user.email "$(git log --format='%ae' HEAD^!)"
+        git config --local user.name "$(git log --format='%an' HEAD^!)"
+        git add docs/reagent_resources.md docs/publications.md docs/index.md
+        git commit -m "Adding converted markdowns."
+        git push
