@@ -1,0 +1,179 @@
+{
+    "description": "The Iterative Bleaching Extends Multiplexity (IBEX) imaging method is an iterative immunolabeling and chemical bleaching method that enables highly multiplexed imaging in diverse tissues. Development of the <a href=\"https://doi.org/10.1038/s41596-021-00644-9\">IBEX method</a> and <a href=\"https://github.com/niaid/imaris_extensions\">related software</a> was led by Dr. Andrea Radtke and Dr. Ziv Yaniv. <a href=\"https://doi.org/10.1073/pnas.2018488117\">IBEX</a> and related methods, <a href=\"https://doi.org/10.1073/pnas.1708981114\">Ce3D</a>, <a href=\"https://doi.org/10.1111/imr.13052\">Ce3D-IBEX</a>, <a href=\"https://doi.org/10.1073/pnas.2018488117\">Opal-plex</a>, were originally developed in the laboratory of <a href=\"https://irp.nih.gov/pi/ronald-germain\">Dr. Ronald N. Germain</a>, the US National Institutes of Health.<br>This dataset contains the current state of knowledge with respect to the IBEX microscopy imaging protocol.",
+    "keywords": [
+        "Open Science",
+        "Microscopy",
+        "Multiplexed Optical Imaging",
+        "Antibody",
+        "Spatial Biology"
+    ],
+    "license": {
+        "id": "CC-BY-4.0"
+    },
+    "title": "Iterative Bleaching Extends Multiplexity (IBEX) Knowledge-Base",
+    "upload_type": "dataset",
+    "creators": [
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Yaniv, Ziv",
+            "orcid": "0000-0003-0315-7727"
+        },
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Anidi, Ifeanyichukwu",
+            "orcid": "0000-0002-2692-1225"
+        },
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Arakkal, Leanne",
+            "orcid": "0000-0001-9189-7172"
+        },
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Arroyo-Mejias, Armando",
+            "orcid": "0000-0002-0835-911X"
+        },
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Beuschel, Rebecca T.",
+            "orcid": "0000-0002-3882-457X"
+        },
+        {
+            "affiliation": "Indiana University",
+            "name": "Börner, Katy",
+            "orcid": "0000-0002-3321-6137"
+        },
+        {
+            "affiliation": "University College London",
+            "name": "Chu, Colin J.",
+            "orcid": "0000-0003-2088-8310"
+        },
+        {
+            "affiliation": "University of Cambridge",
+            "name": "Clatworthy, Menna",
+            "orcid": "0000-0002-3340-9828"
+        },
+        {
+            "affiliation": "McMaster University",
+            "name": "Colautti, Jake",
+            "orcid": "0000-0002-1461-0999"
+        },
+        {
+            "affiliation": "BioLegend Inc.",
+            "name": "Croteau, Joshua",
+            "orcid": "0000-0002-8142-0482"
+        },
+        {
+            "affiliation": "Universidade Federal de Minas Gerais",
+            "name": "Dutra, Walderez",
+            "orcid": "0000-0002-7586-9996"
+        },
+        {
+            "affiliation": "Rush University",
+            "name": "Fullam, Spencer",
+            "orcid": "0000-0001-9012-3802"},
+        {
+            "affiliation": "University of Washington",
+            "name": "Gerner, Michael",
+            "orcid": "0000-0001-5406-8308"
+        },
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Gola, Anita",
+            "orcid": "0000-0003-1431-1398"
+        },
+        {
+            "affiliation": "Hospital Israelita Albert Einstein",
+            "name": "Gollob, Kenneth J.",
+            "orcid": "0000-0003-4184-3867"
+        },
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Ichise, Hiroshi",
+            "orcid": "0000-0002-5187-810X"
+        },
+        {
+            "affiliation": "University Hospital Aachen",
+            "name": "Jonigk, Danny",
+            "orcid": "0000-0002-5251-2281"
+        },
+        {
+            "affiliation": "Julius Maximilians Universität Würzburg",
+            "name": "Kastenmüller, Wolfgang",
+            "orcid": "0000-0002-3835-1485"
+        },
+        {
+            "affiliation": "McMaster University",
+            "name": "Koenig, Joshua F. E.",
+            "orcid": "0000-0002-8909-5039"
+        },
+        {
+            "affiliation": "McMaster University",
+            "name": "Murakami Olyntho, Vitoria",
+            "orcid": "0000-0003-2634-6838"
+        },
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Padhan, Kartika",
+            "orcid": "0000-0001-9561-4256"
+        },
+        {
+            "affiliation": "University of Cambridge",
+            "name": "Richoz, Nathan",
+            "orcid": "0000-0002-7422-3237"
+        },
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Shih, Rochelle",
+            "orcid": "0000-0002-3218-4479"
+        },
+        {
+            "affiliation": "Cleveland Clinic Lerner Research Institute",
+            "name": "Speranza, Emily",
+            "orcid": "0000-0003-0666-4804"
+        },
+        {
+            "affiliation": "Wellcome Sanger Institute",
+            "name": "Teichmann, Sarah",
+            "orcid": "0000-0002-6294-6366"
+        },
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Veres, Tibor Z.",
+            "orcid": "0000-0002-6980-8900"
+        },
+        {
+            "affiliation": "McMaster University",
+            "name": "Vierhout, Megan",
+            "orcid": "0000-0001-5813-2581"
+        },
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Wachter, Brianna",
+            "orcid": "0000-0002-2950-2683"
+        },
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Williams, Margaret",
+            "orcid": "0000-0003-3697-5726"
+        },
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Germain, Ronald",
+            "orcid": "0000-0003-1495-9143"
+        },
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Radtke, Andrea J.",
+            "orcid": "0000-0003-4379-8967"
+        }
+    ],
+    "grants": [{"id":"10.13039/100000002::1ZIAAI001290-02"},
+               {"id":"10.13039/100000002::1ZIAAI000545-33"},
+               {"id":"10.13039/100000002::1ZIAAI000758-24"},
+               {"id":"10.13039/100000002::1ZIAAI000974-16"},
+               {"id":"10.13039/100000002::1ZIAAI001034-14"},
+               {"id":"10.13039/100004440::224586/Z/21/Z"},
+               {"id":"10.13039/100000002::1ZIAAI001343-01"}
+            ]
+}
