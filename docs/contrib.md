@@ -1,0 +1,125 @@
+# Contribute
+
+To contribute your knowledge you need the following:
+1. Open Researcher and Contributor ID ([ORCID](https://en.wikipedia.org/wiki/ORCID)), your unique scientific identifier. If you do not have an ORCID, register for it [here](https://orcid.org/register).
+1. A GitHub account. If you do not have an account, follow these [instructions to sign up for one](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
+
+
+This knowledge-base follows the standard GitHub
+[fork and pull request, triangular workflow](https://guides.github.com/activities/forking/).
+
+## One time setup
+1. If you are comfortable working with git and GitHub from the command-line, install [git](https://git-scm.com/downloads). Otherwise, download the [GitHub Desktop](https://desktop.github.com/) application and [read the installation and configuration help](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop).
+3. Fork the [IBEX Imaging Community repository](https://github.com/zivy/ibex_microscopy) and clone it to a local directory ([GitHub Desktop instructions](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop)).
+4. If you are adding information into the reagent_resources.csv, contributing a protocol or hardware design, add your information to the "creators" section in the .zenodo.json file (This is a hidden file. To see it on windows, open file-explorer and select View->Show->Hidden items).
+
+## Adding information to the knowledge-base
+
+### Before starting to work
+Create a new local git branch based off of the `main` branch ([GitHub Desktop instructions](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches#creating-a-branch)).
+
+### Modifying the *publications.bib* file:
+Simply add an entry to the file using the appropriate [bibtex entry type](https://www.bibtex.com/e/entry-types/).
+
+To give credit where credit is due, we ask that you provide the complete list of authors and do not truncate it, even if it is long.
+
+### Modifying a markdown file:
+Simply edit the relevant file.
+
+Do not edit the *index.md*, *reagent_resources.md* or *publications.md* files. These files are automatically generated from the *index.md.in*, *reagent_resources.csv* and *publications.bib* files respectively, edit those files.
+
+### Modifying *reagent_resources.csv*:
+
+Do not use non ASCII characters such as &trade; or &alpha; (either remove or represent using standard ASCII "alpha"). For explanation of the column contents see the [reagent metadata section](#reagent-metadata).
+
+#### Adding new line:
+1. Add a line to the [reagent_resources.csv](https://github.com/zivy/ibex_microscopy/blob/main/reagent_resources.csv).
+2. Create corresponding supporting material sub-directory using the target_conjugate as the directory name (replace spaces and slashes with underscores) and add a markdown file with your ORCID as the file prefix (see existing files for reference). Supporting material file has a fixed layout, given in the [supporting_template.md](supporting_template.md).
+3. Optionally add *small* (<300KB) image files (jpg) and refer to them in the supporting material file.
+
+#### Adding information to existing line:
+---
+
+We only accept up to 5 ORCID additions in the `Agree` or `Disagree` columns. This means that, the original contributor's work was replicated by up to 4 people from other laboratories or refuted by up to 5 people from other laboratories.
+
+---
+
+1. Add your ORCID to the `Agree` or `Disagree` column on the appropriate line in the reagent_resources.csv file, use a semicolon `;` to separate from the previous ones (e.g. `ORCID1; ORCID2; ORCID3`).
+2. If after adding your vote:
+  * The number of ORCIDs in the `Disagree` column is greater than those in the `Agree` column:
+    1. Change the content of the `Recommend` column from "Yes" to "No" or the other way round and swap the ORCIDs between the `Agree` and `Disagree` columns.
+    2. Modify all the supporting material markdown files associated with this row, changing the `ResultXXX` and `RecommendationXXX` sections.
+3. Add a markdown file with your ORCID to the existing sub-directory. Easiest option is to copy the contents of one of the markdown files already in this directory and modify it.
+4. Optionally add **small** image files (jpg) and refer to them in the supporting material file. Please format your images as 72dpi, 24bit color, 1200x1200px. Write caption identifying validated reagent with orthogonal marker (see below). Use colorblind safe colors (Cyan, red; magenta, green, blue; no green and red). Include scale bar. Use zoom that allows fine details to be seen.
+
+### After work is completed
+After completing the work, update the public knowledge-base. This can be done using git on the command-line or using GitHub desktop:
+1. Commit the changes ([GitHub Desktop instructions](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project)).
+2. Push the commit to GitHub ([GitHub Desktop instructions](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/pushing-changes-to-github)).
+3. Create a pull-request on GitHub ([GitHub Desktop instructions](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request#creating-a-pull-request)).
+
+
+# Reagent Metadata
+
+For meanings of acronyms and other terminology see [glossary](#glossary).
+
+| Field | Description | Required format | Examples |
+|:------|:------------|:----------------|:---------|
+| Uniprot Accession Number | Identifies the target protein (see https://www.uniprot.org). If UniProt ID cannot be found for the antibody, please list “NA”, e.g., secondary antibodies, nuclear dyes, and labeling kits. | Alphanumeric (more info here); for multiclonal (pan-) antibodies, list IDs for all targeted proteins as a comma delimited list. | A2BC19, P12345, Q9BZS1 |
+| Reagent Type | Broadly defines a reagent used for multiplexed imaging. |	Capitalize first letter of each word. | Primary Antibody, Secondary Antibody, Zenon Labeling Kit, Nuclear Dye |
+| Target Name | Provides a common name for the target protein being detected by assay. Please spell out Greek letters (alpha, beta, gamma, delta, etc).	| Commonly used name or protein abbreviation.	| CD20, ICAM, Somatostatin, Alpha smooth muscle actin, TCR gamma delta |
+| Target Species | Identifies the species reactivity of a primary antibody.	| Capitalize first letter of each word.	| Human, Mouse, Rhesus, African Green |
+| Host Organism | Identifies the species in which the antibody was raised. | Capitalize first letter. | Rabbit, Donkey, Mouse |
+| Isotype | Describes the antibody isotype. | Please write out any symbols. Do not include kappa or lambda light chains. | IgG, IgG1, IgG1 |
+|Clonality | Provides the clone ID (if monoclonal) or identifies the antibody as polyclonal. | List clone as provided by the manufacturer.  If polyclonal, enter Polyclonal | L26, EPR5386, Polyclonal |
+| Vendor | Provides information on the source of the antibody. | Vendor name. | Cell Signaling Technology, Abcam, BioLegend. Please carefully check spelling of vendor names and cross reference with entries in Reagent Resources file before submitting new entries. |
+|Catalog Number | Provides catalog number from vendor for the source of the antibody. | Vendor catalog number. | Ab9566, sc-20060, C6198 |
+| Conjugate	| Specifies fluorophore conjugated to antibody or no fluorophore (Unconjugated). | For fluorophores, please use industry standard abbreviations (e.g., AF for Alexa Fluorophore&trade;). Please do not include trademarks because they do not render properly in .csv files.	| AF647, PE, iF594, eF570, Unconjugated (if no fluorophore) |
+| RRID | Allows for universal identification of an antibody (search by catalog number in the RRID Portal). If there is no entry, please register your antibody or list NA. Several vendors list RRIDs on their website (BioLegend, Thermo Fisher Scientific, BD Biosciences). | AB_###### | AB_793620, AB_10124480, NA |
+| Availability | Lists whether a reagent is commercially available (stock) or a custom reagent. If the reagent is custom, then please provide the catalog details for the conjugation kit in the Notes column. | Capitalize first letter. | Stock or Custom |
+| Method | Describes imaging configuration used for reagent evaluation. Multiplexed Imaging refers to single cycle imaging with fluorescently conjugated antibodies. IBEX2D Manual refers to thin (<20 um) tissue sections that are manually imaged as outlined in PNAS 2020 publication. IBEX 2D Automated refers to thin (<20 um) tissue sections that are imaged with ARIA as outlined in Nature Protocols 2022 publication. Please see Glossary for definitions. | Method, tissue thickness 2D (<20 um) or 3D (>300 um), Manual, Automated | IBEX2D Manual, IBEX2D Automatic, Multiplexed 2D Imaging |
+|Tissue Preservation | Preservation technique used. If fixative other than formalin, indicate the percentage of fixative used (e.g., 1% or 4%). | Use a common abbreviation format (e.g., FFPE for formalin fixed paraffin embedded). | FFPE, 1% PFA Fixed Frozen (Method described in [[Radtke et al. 2022](https://doi.org/10.1038/s41596-021-00644-9)]) |
+| Target Tissue | Lists the tissue used for imaging. | Capitalize first letter of each word. | Jejunum, Liver, Small Intestine, Tonsil |
+| Tissue State | Provides details about the state of the tissue such as type of cancer, infectious agent, or immunization status. Include NA if the tissue status is unknown or not critical for the performance of an antibody. | Capitalize first letter of each word. |
+Follicular Lymphoma, Metastatic, Senescent, Mycobacterium Tuberculosis Infected, NA |
+| Detergent | Describes the detergent, if any, used in blocking, staining, and wash buffers. This is critical for antibody performance. Please include NA if no detergent is used. | Percentage and type of detergent with first letter capitalized in detergent name. |
+0.3% Triton-X-100, 0.1% Saponin, NA |
+| Antigen Retrieval Conditions | Describes antigen retrieval conditions used for FFPE tissues. List NA for fixed frozen tissues. | pH of the buffer, temperature, and time used for antigen retrieval. | pH 6 for 40 minutes at 95C (AR6 Akoya Biosciences AR600250ML), pH 6 (ER1 buffer AR9961) for 30 minutes on Leica Bond |
+| Dye Inactivation Conditions | Details the concentration of LiBH4 and time required to extinguish signal. If the fluorophore does not bleach (Hoechst), include NA. |
+Concentration of LiBH4 with time and “+ light” if dye inactivated in the presence of light (BV421, BV510 conjugates). | 0.5 mg/ml LiBH4 10 minutes continuous exchange with automated protocol, 1 mg/ml LiBH4 15 minutes, 1 mg/ml LiBH4 30 minutes (FITC), 1 mg/ml LiBH4 for more than 120 minutes (AF594, eF615), 1 mg/ml LiBH4 15 minutes + light (BV421, BV510), NA (Hoechst) |
+| Recommend | Details whether you recommend (Yes) or do not recommend (No) a reagent for the tissue type and experimental workflow (tissue preservation method, antigen retrieval conditions, detergent, and imaging method). Elaborate on recommendation using the Notes section in the supporting material file. | Yes, No | Yes, No |
+| Agree | Identifies the individual who validated the reagent using the same experimental conditions (same tissue source, tissue preservation method, detergent, and imaging method). Please [register](https://orcid.org/register) ORCID for Researchers. Limited to 5 individuals. | ####-####-####-#### (the last digit may be X) | 0000-0000-0000-0000 |
+| Disagree | Identifies the individual who was unable to validate the antibody using the same experimental conditions (same tissue source, tissue preservation method, detergent, and imaging method). Please [register](https://orcid.org/register) ORCID for Researchers. Limited to 5 individuals. | ####-####-####-#### (the last digit may be X) | 0000-0000-0000-0000 |
+| Contributor | Identifies the individual who contributed the reagent. Please register ORCID for Researchers. | ####-####-####-#### (the last digit may be X) | 0000-0000-0000-0000 |
+
+# Glossary
+
+Several of the definitions here are adapted from the glossary defined in the [SOP](https://zenodo.org/record/7386417#.Y4zo33bMIuU) written by the Affinity Reagent Working Group of the Human Biomolecular Atlas Program (HuBMAP).
+
+**Clearing-enhanced 3D (Ce3D)**: Tissue clearing method that allows volumetric imaging of thick tissue sections (>200 microns to 3 mm) using direct immunolabeling with fluorescently conjugated antibodies [[Li et al. 2019](https://doi.org/10.1038/s41596-019-0156-4), [Li et al. 2017](https://doi.org/10.1073/pnas.1708981114)].
+
+**Ce3D-IBEX**: Multiplexed 3D imaging method that combines Ce3D and IBEX for visualization of up to 15 markers in a single tissue section using conventional fluorophores and commercially available instruments. The method is currently under development and led by Dr. Hiroshi Ichise, Armando Javier Arroyo-Mejías, and colleagues in the Germain laboratory at the NIH [[Arroyo-Mejías et al. 2022](https://doi.org/10.4049/jimmunol.208.Supp.116.23), [Germain et al. 2022](https://doi.org/10.1111/imr.13052)]. 
+
+**Cell DIVE**:  The Cell DIVE multiplexed imaging solution is an integrated system for imaging 60+ biomarkers from one tissue sample at the single-cell level. The tissue-preserving staining and dye inactivation workflow and advanced image processing enables a more comprehensive understanding of the tissue microenvironment than has been available with traditional chromogenic or fluorescence-based imaging [[Gerdes et al. 2013](https://doi.org/10.1073/pnas.1300136110)].
+ 
+**Cell DIVE-IBEX**: Method employing the IBEX dye inactivation protocol with compatible fluorophores on the Cell DIVE platform. This method allows imaging of thin, 2D (5-10 micron) tissue sections.
+ 
+**Conjugate**: Fluorescent dye,  enzyme, or hapten covalently attached to a primary or secondary antibody that is used for downstream detection of the antibody bound to its target in/on a cell.
+ 
+**Detergent**: Reagent included in blocking, staining, and wash buffers to reduce non-specific labeling, enhance reagent spreading, and permealize cells for nuclear labels. Examples include saponin, Tween-20, and Triton-X-100.
+ 
+**Fixed Frozen**: Method of tissue preservation where samples are placed in fixative (e.g., formalin), cryoprotected with sucrose, frozen in molds with optimal cutting temperature (OCT) media, and stored at -80C. The 1% PFA Fixed Frozen method refers to the protocol outlined in the original IBEX manuscripts [[Radtke et al. 2020](https://doi.org/10.1073/pnas.2018488117), [Radtke et al. 2022](https://doi.org/10.1038/s41596-021-00644-9)].
+ 
+**Formalin Fixed Paraffin Embedded (FFPE)**: Most common form of tissue preservation where tissues are saturated with formalin and then embedded in a block of paraffin wax. Samples are stored at room temperature.
+ 
+**Fresh Frozen (FF)**: Method of tissue preservation where samples are frozen at ultralow temperature without fixative (fresh), immobilized in cryosafe media (e.g., OCT, carboxymethyl cellulose), and stored at -80C.
+ 
+**IBEX2D Manual**: IBEX configuration that relies on manual immunolabeling and dye inactivation as initially described in [[Radtke et al. 2020](https://doi.org/10.1073/pnas.2018488117)] and detailed further in Box 2 of [[Radtke et al. 2022](https://doi.org/10.1038/s41596-021-00644-9)]. This method uses thin, 2D (5-30 micron) tissue sections. The resulting image can be either a single plane or a small volume.
+ 
+**IBEX2D Automated**: IBEX configuration that uses a fluidics device to deliver antibodies and dye inactivation solution directly to the sample with minimal user intervention. This method uses thin, 2D (5-10 micron) tissue sections and was described in a detailed protocol [[Radtke et al. 2022](https://doi.org/10.1038/s41596-021-00644-9)]. The resulting image is a single plane.
+ 
+**Iterative Bleaching Extends Multiplexity (IBEX)**: An open source, community supported  iterative immunolabeling and chemical bleaching method for high-content imaging of diverse tissues [[Radtke et al. 2020](https://doi.org/10.1073/pnas.2018488117), [Radtke et al. 2022](https://doi.org/10.1038/s41596-021-00644-9)].
+ 
+**Multiplexed 2D Imaging**: Standard, single cycle (non-iterative) imaging method applied to thin, 2D (5-30 micron) tissue sections. Prior to inclusion in an IBEX imaging panel, all antibodies are first validated using this method. Most antibodies that are recommended for Multiplexed 2D Imaging are compatible with IBEX if conjugated to a LiBH4-sensitive dye. Antibodies that are not recommended for this method are not suitable for IBEX imaging. The resulting image can be either a single plane or a small volume.
+ 
+**Opal-plex**: Method that utilizes signal amplification with Opal dyes and the IBEX dye inactivation protocol to perform multiplexed imaging in heavily fixed tissues and/or detect low abundance epitopes in conventionally fixed tissues. This method was developed by Dr. Emily Speranza and colleagues in the Germain laboratory at the NIH (Radtke PNAS).
