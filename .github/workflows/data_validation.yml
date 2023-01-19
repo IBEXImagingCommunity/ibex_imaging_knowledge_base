@@ -35,5 +35,5 @@ jobs:
     - name: Install dependencies and validate .zenodo.json file
       run: |
         pip install --upgrade pip
-        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.2.0/ibex_imaging_knowledge_base_utilities-0.2.0-py3-none-any.whl
+        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.3.0/ibex_imaging_knowledge_base_utilities-0.3.0-py3-none-any.whl
         validate_zenodo_json .zenodo.json

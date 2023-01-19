@@ -8,7 +8,10 @@ on:
       - data/publications.bib
       - data/ibex.csl
       - data/reagent_resources.csv
+      - data/reagent_resources.md.in
       - data/index.md.in
+      - data/fluorescent_probes.csv
+      - data/fluorescent_probes.md.in
   # Enable manual running of workflow
   workflow_dispatch:
 jobs:
@@ -27,17 +30,20 @@ jobs:
         brew update
         brew install pandoc
         pip install --upgrade pip
-        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.2.0/ibex_imaging_knowledge_base_utilities-0.2.0-py3-none-any.whl
+        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.3.0/ibex_imaging_knowledge_base_utilities-0.3.0-py3-none-any.whl
     - name: Convert bibliography to markdown
       run: |
         pandoc --version
         bib2md data/publications.bib data/ibex.csl docs/publications.md
     - name: Convert reagent resources csv to markdown
       run: |
-        reagent_resources_csv_2_md_url data/reagent_resources.csv docs/supporting_material data/vendor_urls.json
+        reagent_resources_csv_2_md_url data/reagent_resources.md.in data/reagent_resources.csv data/vendor_urls.json docs/supporting_material 
     - name: Update the index.md file statistics
       run: |
         update_index_md_stats data/index.md.in data/reagent_resources.csv docs/index.md
+    - name: Convert fluorescent probes csv to markdown
+      run: |
+        fluorescent_probes_csv_2_md data/fluorescent_probes.md.in data/fluorescent_probes.csv docs/fluorescent_probes.md 
     - name: Commit and push
       run: |
         git config --local user.email "$(git log --format='%ae' HEAD^!)"
