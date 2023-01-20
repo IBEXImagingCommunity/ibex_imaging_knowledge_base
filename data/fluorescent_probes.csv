@@ -1,0 +1,67 @@
+Fluorescent Probe,Excitation Max (nm),Emission Max (nm),Signal Inactivation Conditions IBEX2D Manual
+Hoechst,350,461,Does not bleach
+VioGreen,388,520,1 mg/ml LiBH4 15 minutes
+VioBlue,400,452,1 mg/ml LiBH4 15 minutes
+Spark Violet 538,400,538,1 mg/ml LiBH4 15 minutes
+StarBright Violet 670,401,667,Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment
+StarBright Violet 710,402,713,Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment
+BV421,405,421,1 mg/ml LiBH4 15 minutes + Light
+eF450,405,450,1 mg/ml LiBH4 15 minutes
+BV510,405,510,1 mg/ml LiBH4 15 minutes + Light
+BV570,405,570,Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment
+Pacific Blue,410,455,1 mg/ml LiBH4 15 minutes
+Cyan Fluorescent Protein (CFP),435,485,Does not bleach
+StarBright Blue 700,473,703,Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment
+PerCP-Vio 700,482,704,Not tested
+Green Fluorescent Protein (GFP),488,510,Does not bleach
+iF488,488,530,1 mg/ml LiBH4 15 minutes
+AF488,490,525,1 mg/ml LiBH4 15 minutes
+AF488 (Plus),490,525,1 mg/ml LiBH4 15 minutes
+FITC,490,525,1 mg/ml LiBH4 30 minutes
+CL490,491,515,1 mg/ml LiBH4 15 minutes
+Spark Blue 574,506,574,1 mg/ml LiBH4 15 minutes
+iF514,511,527,Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment
+Yellow Fluorescent Protein (YFP),513,527,Does not bleach
+JOJO-1,530,544,Does not bleach
+AF532,532,554,1 mg/ml LiBH4 15 minutes
+iF532,537,560,1 mg/ml LiBH4 15 minutes
+CL550,550,575,1 mg/ml LiBH4 15 minutes
+AF555,555,580,1 mg/ml LiBH4 15 minutes
+AF555 (Plus),555,580,1 mg/ml LiBH4 15 minutes
+Spark YG 570,555,570,Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment
+Red Fluorescent Protein (RFP),555,584,Does not bleach
+AF546,556,573,Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment
+eF570,556,569,1 mg/ml LiBH4 15 minutes
+iF555,557,570,1 mg/ml LiBH4 15 minutes
+PE,565,578,1 mg/ml LiBH4 15 minutes
+RY586,565,586,Not tested
+PE/iF594,565,606,1 mg/ml LiBH4 15 minutes
+PE/Dazzle AF594,565,610,Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment
+PE-Vio 615,565,619,Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment
+PE-Vio 770,565,775,1 mg/ml LiBH4 15 minutes
+AF568,578,603,Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment
+iF594,588,604,1 mg/ml LiBH4 15 minutes
+AF594,590,617,Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment. 
+CL594,593,614,Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment
+CF594,593,615,Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment
+eF615,595,615,Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment
+Texas Red,596,615,Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment
+AF633,631,650,1 mg/ml LiBH4 15 minutes
+eF660,633,669,1 mg/ml LiBH4 15 minutes
+AF647,650,665,1 mg/ml LiBH4 15 minutes
+AF647 (Plus),650,665,1 mg/ml LiBH4 15 minutes
+APC-Vio 770,652,775,Not tested
+CL650,655,676,1 mg/ml LiBH4 15 minutes
+iF647,656,670,1 mg/ml LiBH4 15 minutes
+AF660,662,690,1 mg/ml LiBH4 15 minutes
+AF680,679,702,1 mg/ml LiBH4 15 minutes
+iF680,684,701,1 mg/ml LiBH4 15 minutes
+Spark Red 718,687,718,1 mg/ml LiBH4 15 minutes
+Vio Bright R720,695,720,1 mg/ml LiBH4 15 minutes
+AF700,702,723,1 mg/ml LiBH4 15 minutes
+AF750,749,775,1 mg/ml LiBH4 15 minutes
+iF750,757,779,1 mg/ml LiBH4 15 minutes
+BL759/780,759,780,1 mg/ml LiBH4 15 minutes
+DL755,776,754,1 mg/ml LiBH4 15 minutes
+AF790,784,814,1 mg/ml LiBH4 15 minutes
+AF800 (Plus),786,790,1 mg/ml LiBH4 15 minutes
