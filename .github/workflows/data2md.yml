@@ -48,6 +48,6 @@ jobs:
       run: |
         git config --local user.email "$(git log --format='%ae' HEAD^!)"
         git config --local user.name "$(git log --format='%an' HEAD^!)"
-        git add docs/reagent_resources.md docs/publications.md docs/index.md
+        git add docs/reagent_resources.md docs/publications.md docs/index.md docs/fluorescent_probes.md
         git commit -m "Adding converted markdowns."
         git push

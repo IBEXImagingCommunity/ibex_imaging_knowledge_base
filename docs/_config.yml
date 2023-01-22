@@ -10,7 +10,6 @@ header_pages:
   - q_and_a.md
   - contrib.md
   - leadership.md
-  - code_of_conduct.md
 
 minima:
   skin: classic
