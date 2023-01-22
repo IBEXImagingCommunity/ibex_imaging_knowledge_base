@@ -43,7 +43,7 @@ jobs:
         update_index_md_stats data/index.md.in data/reagent_resources.csv docs/index.md
     - name: Convert fluorescent probes csv to markdown
       run: |
-        fluorescent_probes_csv_2_md data/fluorescent_probes.md.in data/fluorescent_probes.csv docs/fluorescent_probes.md 
+        fluorescent_probes_csv_2_md data/fluorescent_probes.md.in data/fluorescent_probes.csv docs/
     - name: Commit and push
       run: |
         git config --local user.email "$(git log --format='%ae' HEAD^!)"
