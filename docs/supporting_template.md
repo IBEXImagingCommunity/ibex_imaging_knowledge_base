@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Configurations
 
 {configurations_table}
