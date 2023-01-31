@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Leadership
 
 ## Steering Committee
@@ -14,13 +18,13 @@
 * Emily	Speranza, Cleveland Clinic Lerner Research Institute, USA, [SPERANE@ccf.org](mailto:SPERANE@ccf.org)
   ### Chairs
   * Colin J. Chu, University College London, UK, [colin.chu@ucl.ac.uk](mailto:colin.chu@ucl.ac.uk)
-  * Andrea J. Radtke, National Institutes of Health, USA,	[andrea.radtke@nih.gov](mailto:andrea.radtke@nih.gov)
-  * Ziv Yaniv, National Institutes of Health, USA, [zivyaniv@nih.gov](mailto:zivyaniv@nih.gov)
+  * Andrea J. Radtke, National Institute of Allergy and Infectious Diseases, National Institutes of Health, USA,	[andrea.radtke@nih.gov](mailto:andrea.radtke@nih.gov)
+  * Ziv Yaniv, National Institute of Allergy and Infectious Diseases, National Institutes of Health, USA, [zivyaniv@nih.gov](mailto:zivyaniv@nih.gov)
 
 
 ## Advisory Board
 * Katy Börner, Indiana University, USA.
-* Ronald N. Germain, National Institutes of Health, USA.
+* Ronald N. Germain, National Institute of Allergy and Infectious Diseases, National Institutes of Health, USA.
 * Danny	Jonigk, University Hospital Aachen, Germany.
 * Wolfgang Kastenmüller, Julius Maximilians Universität Würzburg, Germany.
 * Sarah Teichmann, Wellcome Sanger Institute, UK.
