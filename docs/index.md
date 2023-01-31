@@ -40,9 +40,7 @@ To cite the IBEX knowledge-base use the Digital Object Identifier (DOI) [provide
 
 ## Download
 
-The authoritative and versioned form of the knowledge-base will be available for download from [Zenodo](https://zenodo.org/).
-
-This repository is a work-in-progress and is not an authoritative version of the knowledge-base.
+The authoritative and versioned form of the knowledge-base is available for download from [Zenodo](https://zenodo.org/).
 
 ## Guiding Principles
 
