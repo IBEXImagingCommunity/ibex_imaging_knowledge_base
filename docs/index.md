@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <img src="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/docs/IBEX_Banner.jpg">
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) &nbsp;&nbsp;&nbsp;&nbsp; [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.html)
@@ -23,7 +27,7 @@
 
 # Iterative Bleaching Extends Multiplexity (IBEX) Knowledge-Base
 
-The Iterative Bleaching Extends Multiplexity (IBEX) imaging method is an iterative immunolabeling and chemical bleaching method that enables highly multiplexed imaging in diverse tissues. Development of the [IBEX method](https://doi.org/10.1038/s41596-021-00644-9) and [related software](https://github.com/niaid/imaris_extensions) was led by Dr. Andrea Radtke and Dr. Ziv Yaniv. [IBEX](https://doi.org/10.1073/pnas.2018488117) and related methods, [Ce3D](https://doi.org/10.1073/pnas.1708981114), [Ce3D-IBEX](https://doi.org/10.1111/imr.13052), [Opal-plex](https://doi.org/10.1073/pnas.2018488117), were originally developed in the laboratory of [Dr. Ronald N. Germain](https://irp.nih.gov/pi/ronald-germain), the US National Institutes of Health.
+The Iterative Bleaching Extends Multiplexity (IBEX) imaging method is an iterative immunolabeling and chemical bleaching method that enables highly multiplexed imaging of diverse tissues. Development of the [IBEX method](https://doi.org/10.1038/s41596-021-00644-9) and [related software](https://github.com/niaid/imaris_extensions) was led by Dr. Andrea Radtke and Dr. Ziv Yaniv. [IBEX](https://doi.org/10.1073/pnas.2018488117) and related methods, [Ce3D](https://doi.org/10.1073/pnas.1708981114), [Ce3D-IBEX](https://doi.org/10.1111/imr.13052), [Opal-plex](https://doi.org/10.1073/pnas.2018488117), were originally developed in the laboratory of [Dr. Ronald N. Germain](https://www.niaid.nih.gov/research/ronald-n-germain-md-phd), US National Institutes of Health.
 
 
 
@@ -63,9 +67,11 @@ This repository contains the *current state of knowledge* with respect to the IB
 
 # Supported by
 
-<p float="middle">
-  <img alt= "National Institute of Allergy and Infectious Diseases Logo" src="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/docs/National_Institute_of_Allergy_and_Infectious_Diseases_Logo.svg" style="width:24%;min-width: 200px"/>&emsp;<img alt="National Cancer Institute Logo" src="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/docs/National_Cancer_Institute_Logo.svg" style="width:20%;min-width: 167px"/>&emsp;<img alt=" Schroeder Allergy and Immunology Research Institute Logo" src="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/docs/Schroeder_Allergy_and_Immunology_Research_Institute.svg" style="width:31%;min-width: 258px"/><br><img alt="Chan Zuckerberg Initiative Logo" src="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/docs/Chan_Zuckerberg_Initiative_Logo.svg" style="width:16%;min-width: 133px"/>&emsp;<img alt="Wellcome Trust Logo" src="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/docs/Wellcome_Trust_Logo.svg" style="width:10%;min-width: 83px"/><br>
-</p>
+* [National Institute of Allergy and Infectious Diseases](https://www.niaid.nih.gov/), National Institutes of Health, USA.
+* [National Cancer Institute](https://www.cancer.gov/), National Institutes of Health, USA.
+* Schroeder Allergy and Immunology Research Institute, McMaster University, CA.
+* [Chan Zuckerberg Initiative](https://chanzuckerberg.com/), USA.
+* [Wellcome Trust](https://wellcome.org/), UK.
 
 ---
 
