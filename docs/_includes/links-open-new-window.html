@@ -1,0 +1,15 @@
+<script>
+// derived from https://jekyllcodex.org/without-plugin/new-window-fix/
+//open all links in a new window
+function links_open_new_window() {
+    for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+        var b = c[a];
+        if(b.getAttribute("href")) {
+            b.target = "_blank";
+            b.rel = "noopener";
+        }
+    }
+}
+
+links_open_new_window();
+</script>
