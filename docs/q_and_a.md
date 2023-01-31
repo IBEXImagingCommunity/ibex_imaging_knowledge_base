@@ -1,8 +1,10 @@
+---
+layout: default
+---
+
 # Questions and Answers
 
-Multiplex imaging protocols are complex, they involve a variety of technologies and deal with both physical elements and computational ones. Accurately describing all aspects of a protocol in sufficient detail to consistently obtain high quality results is a work in progress. Detailed descriptions addressing all aspects of a protocol need to span the gamut from physical sample handling to software settings used by the computational components utilized in the work.
-
-This file contains questions and answers addressing various aspects of the IBEX imaging protocol which were not addressed in publications or which were not sufficiently clear to scientists from their descriptions in the publications.
+This file contains questions and answers addressing various aspects of the Knowledge-Base, IBEX and related methods, and software details that were not addressed in publications or which were not sufficiently clear to scientists from their descriptions in the publications.
 
 ---
 
@@ -16,13 +18,13 @@ If you have a question that does not appear here, please ask on the [knowledge-b
 Thank you for joining us! Please see instructions on how to contribute [here](contrib.md). 
 
 1. **Do you support other multiplexed imaging methods other than IBEX?**  
-Yes, the IBEX Knowledge Base includes antibodies validated for Multiplexed 2D Imaging, Ce3D, Ce3D-IBEX, Opal-plex, and Cell DIVE-IBEX. Please see the [glossary](./contrib.md#glossary) for additional details. The knowledge-base does not presently support antibodies validated for other highly multiplexed imaging methods using antibody removal or other dye inactivation protocols. 
+Yes, the IBEX Knowledge-Base includes antibodies validated for Multiplexed 2D Imaging, Ce3D, Ce3D-IBEX, Opal-plex, and Cell DIVE-IBEX. Please see the [glossary](./contrib.md#glossary) for additional details. The knowledge-base does not presently support antibodies validated for other highly multiplexed imaging methods using antibody removal or other dye inactivation protocols.
 
 1. **How do I find the RRID for an antibody?**  
 Many antibody companies list RRIDs on their product pages (BioLegend, BD Biosciences, Miltenyi Biotec, Thermo Fisher Scientific). If an RRID is not listed, then please search the [RRID Portal](https://scicrunch.org/resources). If an antibody does not have an RRID, then please consider [registering it](https://antibodyregistry.org/add).
 
 1. **How do I find the UniProt ID for an antibody target?**  
-Please see [uniport.org](https://www.uniprot.org) for completing primary antibody entries. For secondary antibodies and other reagents, please insert “NA” in the UniProt Accession Number column of the `reagent_resources.csv` file.
+Please see [uniport.org](https://www.uniprot.org) for completing primary antibody entries. For secondary antibodies and other reagents, please insert “NA” in the UniProt Accession Number column of the reagent_resources.csv file.
 
 ## IBEX Method
 
@@ -75,4 +77,4 @@ Another possible solution is to install packages from PyPi using the `requiremen
     ```
 
 1. **I am using the registration application from the [imaris extensions GitHub repository](https://github.com/niaid/imaris_extensions) and it fails. Are there settings I can change to make it work?**  
-Yes, there are. For common failure modes and various settings that you can try, see the application's `Help` menu or [this web page](https://niaid.github.io/imaris_extensions/XTRegisterSameChannel.html).
+Yes. For common failure modes and various settings that you can try, see the application's `Help` menu or [this web page](https://niaid.github.io/imaris_extensions/XTRegisterSameChannel.html).
