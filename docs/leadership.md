@@ -16,6 +16,7 @@ layout: default
 * Kenneth J. Gollob, Hospital Israelita Albert Einstein, Brazil, [kenneth.gollob@einstein.br](mailto:kenneth.gollob@einstein.br)
 * Joshua F.E. Koenig, McMaster University, Canada, [koenigjf@mcmaster.ca](mailto:koenigjf@mcmaster.ca)
 * Emily	Speranza, Cleveland Clinic Lerner Research Institute, USA, [SPERANE@ccf.org](mailto:SPERANE@ccf.org)
+
   ### Chairs
   * Colin J. Chu, University College London, UK, [colin.chu@ucl.ac.uk](mailto:colin.chu@ucl.ac.uk)
   * Andrea J. Radtke, National Institute of Allergy and Infectious Diseases, National Institutes of Health, USA,	[andrea.radtke@nih.gov](mailto:andrea.radtke@nih.gov)
