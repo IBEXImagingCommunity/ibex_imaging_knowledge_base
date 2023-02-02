@@ -11,3 +11,45 @@ To view validation images, notes, and accompanying publications for a listed rea
 Additional information on fluorescent probes tested by the IBEX Imaging Community can be found [here](fluorescent_probes.md).
 
 {reagent_resources_table}
+{: #reagent_resources_table_id}
+<script src="assets/tablefilter/tablefilter.js"></script>
+<script data-config="">
+    var filtersConfig = {
+        base_path: 'assets/tablefilter/',
+        alternate_rows: true,
+        btn_reset: true,
+        rows_counter: true,
+        loader: true,
+        status_bar: true,
+        col_0: 'select',
+        col_1: 'select',
+        col_2: 'select',
+        col_3: 'select',
+        col_4: 'select',
+        col_5: 'select',
+        col_6: 'select',
+        col_7: 'select',
+        col_8: 'select',
+        col_9: 'select',
+        col_10: 'select',
+        col_11: 'select',
+        col_12: 'select',
+        col_13: 'select',
+        col_14: 'select',
+        col_15: 'select',
+        col_16: 'select',
+        col_17: 'select',
+        col_18: 'select',
+        col_19: 'select',
+        col_20: 'select',
+        col_21: 'select',
+        col_22: 'select',
+        grid_layout: true,
+        grid_layout: {
+            width: '1500px',
+            height: '500px'
+        }
+    };
+    var tf = new TableFilter('reagent_resources_table_id', filtersConfig);
+    tf.init();
+</script>
