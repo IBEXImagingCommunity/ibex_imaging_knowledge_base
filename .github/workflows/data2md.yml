@@ -30,7 +30,7 @@ jobs:
         brew update
         brew install pandoc
         pip install --upgrade pip
-        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.3.0/ibex_imaging_knowledge_base_utilities-0.3.0-py3-none-any.whl
+        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.3.2/ibex_imaging_knowledge_base_utilities-0.3.2-py3-none-any.whl
     - name: Convert bibliography to markdown
       run: |
         pandoc --version
