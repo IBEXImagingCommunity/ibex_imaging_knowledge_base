@@ -1,18 +1,63 @@
-name: Data to Markdown
+name: IBEX Knowledge-Base Data Validation and Update
 
 on:
   push:
     branches:
       - main
-    paths:
-      - .zenodo.json
-      - 'docs_in/**'
-      - 'data/**'
-  # Enable manual running of workflow, so that if the change is in the generating
-  # code and not in the data we can override the fine tuned execution
+    paths-ignore: # ignore auto-generated files, only run when source files change
+      - docs/contrib.md
+      - docs/fluorescent_probes.md
+      - docs/index.md
+      - docs/publications.md
+      - docs/reagent_resources.md
+      - docs/the_who.md
+
+  pull_request:
+    branches:
+      - main
+    paths-ignore: # ignore auto-generated files, only run when source files change
+      - docs/contrib.md
+      - docs/fluorescent_probes.md
+      - docs/index.md
+      - docs/publications.md
+      - docs/reagent_resources.md
+      - docs/the_who.md
+  # Enable manual running of workflow, so that if the validation or
+  # markdown generation code changes we can force execution
   workflow_dispatch:
+
 jobs:
-  data_2_md:
+  preliminary_test: # run all pre-commit tests (see .pre-commit-config.yaml)
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+    - name: Run pre-commit tests 
+      run: |
+        pip install pre-commit
+        pre-commit run --all-files
+  validate_data:
+    needs: preliminary_test
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+    - name: Install dependencies and validate .zenodo.json file
+      run: | # validate the zenodo json, the reagent data and possibly the publications.bib
+        pip install --upgrade pip
+        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.4.0/ibex_imaging_knowledge_base_utilities-0.4.0-py3-none-any.whl
+        validate_zenodo_json .zenodo.json
+  data_2_md: # run the data to markdown updates only when pushing to the main branch or forced execution via workflow_dispatch
+    needs: validate_data
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'}}
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v3
