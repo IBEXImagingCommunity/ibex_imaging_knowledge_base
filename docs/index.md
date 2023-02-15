@@ -63,13 +63,16 @@ This repository contains the *current state of knowledge* with respect to the IB
 1. Adding a publication utilizing the IBEX imaging protocol to the list of [publications](https://IBEXImagingCommunity.github.io/ibex_imaging_knowledge_base/publications.html).
 1. Confirming previous reagent results or contribute new ones (see [how to contribute](contrib.md)).
 
-# Supported by
+# Funding provided by
 
 * [National Institute of Allergy and Infectious Diseases](https://www.niaid.nih.gov/), National Institutes of Health, USA.
 * [National Cancer Institute](https://www.cancer.gov/), National Institutes of Health, USA.
 * Schroeder Allergy and Immunology Research Institute, McMaster University, CA.
 * [Chan Zuckerberg Initiative](https://chanzuckerberg.com/), USA.
 * [Wellcome Trust](https://wellcome.org/), UK.
+
+
+*This site and any resources to which it links are not endorsed by nor do the site contents or the linked material reflect the official views of NIH or the US Government. The NIH and US Government have no liability connected to the use of this site, its contents , or the resources to which it links.
 
 ---
 
