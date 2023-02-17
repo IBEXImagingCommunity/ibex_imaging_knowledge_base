@@ -58,7 +58,7 @@ As scientists we strive to enable others to reproduce our work, confirming or re
 
 ### <span style="color:purple"> Power of iteration </span>
 This repository contains the *current state of knowledge* with respect to the IBEX imaging method and associated protocols. The authoritative and versioned knowledge-base is available on Zenodo. This knowledge-base, like the method, is iterative. Help advance and refine this community resource by:
-.
+
 1. Asking a question on the [discussion forum](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/discussions).
 1. Adding a publication utilizing the IBEX imaging protocol to the list of [publications](https://IBEXImagingCommunity.github.io/ibex_imaging_knowledge_base/publications.html).
 1. Confirming previous reagent results or contribute new ones (see [how to contribute](contrib.md)).
@@ -72,7 +72,7 @@ This repository contains the *current state of knowledge* with respect to the IB
 * [Wellcome Trust](https://wellcome.org/), UK.
 
 
-*This site and any resources to which it links are not endorsed by nor do the site contents or the linked material reflect the official views of NIH or the US Government. The NIH and US Government have no liability connected to the use of this site, its contents , or the resources to which it links.
+*This site and any resources to which it links are not endorsed by nor do the site contents or the linked material reflect the official views of NIH or the US Government. The NIH and US Government have no liability connected to the use of this site, its contents, or the resources to which it links.
 
 ---
 
