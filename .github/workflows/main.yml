@@ -1,0 +1,153 @@
+name: IBEX Knowledge-Base Data Validation and Update
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore: # ignore auto-generated files, only run when source files change
+      - docs/contrib.md
+      - docs/fluorescent_probes.md
+      - docs/index.md
+      - docs/publications.md
+      - docs/reagent_resources.md
+      - docs/the_who.md
+
+  pull_request:
+    branches:
+      - main
+    paths-ignore: # ignore auto-generated files, only run when source files change
+      - docs/contrib.md
+      - docs/fluorescent_probes.md
+      - docs/index.md
+      - docs/publications.md
+      - docs/reagent_resources.md
+      - docs/the_who.md
+  # Enable manual running of workflow, so that if the validation or
+  # markdown generation code changes we can force execution
+  workflow_dispatch:
+
+jobs:
+  preliminary_test: # run all pre-commit tests (see .pre-commit-config.yaml)
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+    - name: Run pre-commit tests 
+      run: |
+        pip install pre-commit
+        pre-commit run --all-files
+  validate_data:
+    needs: preliminary_test
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+    - name: Install dependencies and validate .zenodo.json file
+      run: | # validate the zenodo json, the reagent data and possibly the publications.bib
+        pip install --upgrade pip
+        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.4.0/ibex_imaging_knowledge_base_utilities-0.4.0-py3-none-any.whl
+        validate_zenodo_json .zenodo.json
+  data_2_md: # run the data to markdown updates only when pushing to the main branch or forced execution via workflow_dispatch
+    needs: validate_data
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'}}
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+    - name: Install dependencies
+      run: |
+        brew update
+        brew install pandoc
+        pip install --upgrade pip
+        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.4.0/ibex_imaging_knowledge_base_utilities-0.4.0-py3-none-any.whl
+    - name: Fine tune data to markdown conversion
+      id: ft
+      shell: bash
+      run: |
+        convert_bib=0
+        convert_reagents=0
+        update_index=0
+        convert_fluorescent=0
+        convert_the_who=0
+        update_how_to_contrib=0
+        if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          convert_bib=1
+          convert_reagents=1
+          update_index=1
+          convert_fluorescent=1
+          convert_the_who=1
+          update_how_to_contrib=1
+        else
+          if ! git diff --quiet HEAD\^ HEAD -- data/publications.bib data/ibex.csl; then
+            convert_bib=1
+          fi
+          if ! git diff --quiet HEAD\^ HEAD -- docs_in/reagent_resources.md.in data/reagent_resources.csv data/vendors_and_urls.csv; then
+            convert_reagents=1
+          fi
+          if ! git diff --quiet HEAD\^ HEAD -- docs_in/index.md.in data/reagent_resources.csv; then
+            update_index=1
+          fi
+          if ! git diff --quiet HEAD\^ HEAD -- docs_in/fluorescent_probes.md.in data/fluorescent_probes.csv; then
+            convert_fluorescent=1
+          fi
+          if ! git diff --quiet HEAD\^ HEAD -- docs_in/the_who.md.in .zenodo.json; then
+            convert_the_who=1
+          fi
+          if ! git diff --quiet HEAD\^ HEAD -- docs_in/contrib.md.in data/reagent_data_dict.csv data/reagent_glossary.csv; then
+            update_how_to_contrib=1
+          fi
+        fi
+        echo "convert_bib=$convert_bib" >> $GITHUB_OUTPUT
+        echo "convert_reagents=$convert_reagents" >> $GITHUB_OUTPUT
+        echo "update_index=$update_index" >> $GITHUB_OUTPUT
+        echo "convert_fluorescent=$convert_fluorescent" >> $GITHUB_OUTPUT
+        echo "convert_the_who=$convert_the_who" >> $GITHUB_OUTPUT
+        echo "update_how_to_contrib=$update_how_to_contrib" >> $GITHUB_OUTPUT
+    - name: Convert bibliography to markdown
+      if: ${{ steps.ft.outputs.convert_bib == '1' }}
+      run: |
+        pandoc --version
+        bib2md data/publications.bib data/ibex.csl docs/publications.md
+    - name: Convert reagent resources csv to markdown
+      if: ${{ steps.ft.outputs.convert_reagents == '1' }}
+      run: |
+        reagent_resources_csv_2_md_url docs_in/reagent_resources.md.in data/reagent_resources.csv data/vendors_and_urls.csv docs/supporting_material
+    - name: Update the index.md file statistics
+      if: ${{ steps.ft.outputs.update_index == '1' }}
+      run: |
+        update_index_md_stats docs_in/index.md.in data/reagent_resources.csv docs/
+    - name: Convert fluorescent probes csv to markdown
+      if: ${{ steps.ft.outputs.convert_fluorescent == '1' }}
+      run: |
+        fluorescent_probes_csv_2_md docs_in/fluorescent_probes.md.in data/fluorescent_probes.csv docs/
+    - name: Convert Zenodo data to contributors list markdown
+      if: ${{ steps.ft.outputs.convert_the_who == '1' }}
+      run: |
+        zenodo_json_2_thewho_md docs_in/the_who.md.in .zenodo.json docs/
+    - name: Update how to contribute markdown
+      if: ${{ steps.ft.outputs.update_how_to_contrib == '1' }}
+      run: |
+        data_dict_glossary_2_contrib_md docs_in/contrib.md.in data/reagent_data_dict.csv data/reagent_glossary.csv docs/
+    - name: Commit and push
+      shell: bash
+      run: |
+        if ! git diff --quiet; then
+          git config --local user.email "$(git log --format='%ae' HEAD^!)"
+          git config --local user.name "$(git log --format='%an' HEAD^!)"
+          git add docs/*.md
+          git commit -m "Adding converted markdowns."
+          git push
+        fi
