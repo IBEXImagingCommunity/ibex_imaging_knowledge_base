@@ -106,7 +106,7 @@ jobs:
           if ! git diff --quiet HEAD\^ HEAD -- docs_in/the_who.md.in .zenodo.json; then
             convert_the_who=1
           fi
-          if ! git diff --quiet HEAD\^ HEAD -- docs_in/contrib.md.in data/data_dict.csv data/glossary.csv; then
+          if ! git diff --quiet HEAD\^ HEAD -- docs_in/contrib.md.in data/reagent_data_dict.csv data/reagent_glossary.csv; then
             update_how_to_contrib=1
           fi
         fi
@@ -140,7 +140,7 @@ jobs:
     - name: Update how to contribute markdown
       if: ${{ steps.ft.outputs.update_how_to_contrib == '1' }}
       run: |
-        data_dict_glossary_2_contrib_md docs_in/contrib.md.in data/data_dict.csv data/glossary.csv docs/
+        data_dict_glossary_2_contrib_md docs_in/contrib.md.in data/reagent_data_dict.csv data/reagent_glossary.csv docs/
     - name: Commit and push
       shell: bash
       run: |
