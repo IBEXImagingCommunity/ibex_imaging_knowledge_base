@@ -124,7 +124,7 @@ jobs:
     - name: Convert reagent resources csv to markdown
       if: ${{ steps.ft.outputs.convert_reagents == '1' }}
       run: |
-        reagent_resources_csv_2_md_url docs_in/reagent_resources.md.in data/reagent_resources.csv data/vendors_and_urls.csv docs/supporting_material
+        reagent_resources_csv_2_md_url docs_in/reagent_resources.md.in data/reagent_resources.csv data/vendor_urls.csv docs/supporting_material
     - name: Update the index.md file statistics
       if: ${{ steps.ft.outputs.update_index == '1' }}
       run: |
