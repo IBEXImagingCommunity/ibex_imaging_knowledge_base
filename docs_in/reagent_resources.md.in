@@ -10,7 +10,7 @@ Click the links in the Agree and Disagree columns to view validation images, not
 
 **Note**: Loading the filterable reagents table takes some time, but is worth the wait.
 
-Additional information on fluorescent probes tested by the IBEX Imaging Community can be found [here](fluorescent_probes.md).
+Additional information on fluorescent probes tested by the IBEX Imaging Community can be found [here](fluorescent_probes.md). Details on reagent validation can be found [here](reagent_validation_details.md).
 
 {reagent_resources_table}
 {: #reagent_resources_table_id}
