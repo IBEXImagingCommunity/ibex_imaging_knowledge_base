@@ -72,7 +72,7 @@ jobs:
         brew update
         brew install pandoc
         pip install --upgrade pip
-        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.4.0/ibex_imaging_knowledge_base_utilities-0.4.0-py3-none-any.whl
+        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.4.1/ibex_imaging_knowledge_base_utilities-0.4.1-py3-none-any.whl
     - name: Fine tune data to markdown conversion
       id: ft
       shell: bash
