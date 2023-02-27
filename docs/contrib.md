@@ -4,7 +4,7 @@ layout: default
 
 # Contribute
 
-**The Who:**  The knowldge-base was made possible by researchers like you, see [who they are](the_who.md) and our thoughts on overcoming the fear of sharing.
+The knowldge-base was made possible by researchers like you, see [who they are](the_who.md) and our thoughts on overcoming the fear of sharing.
 
 To contribute your knowledge you need the following:
 1. Open Researcher and Contributor ID ([ORCID](https://en.wikipedia.org/wiki/ORCID)), your unique scientific identifier. If you do not have an ORCID, register for it [here](https://orcid.org/register).
