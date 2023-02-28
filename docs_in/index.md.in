@@ -45,7 +45,7 @@ The authoritative and versioned form of the knowledge-base is available for down
 ## Guiding Principles
 
 ### <span style="color:purple"> Shared ownership </span>
-We are better together! Everyone who contributes to the knowledge-base is acknowledged by name in the Zenodo dataset releases (see [how to contribute](contrib.md) for details). The IBEX Imaging Community conducts discourse in a civil manner and encourages members of the community to share their scientific findings without fear of retribution. The knowldge-base was made possible by researchers like you, see [who they are](the_who.md) and our thoughts on overcoming the fear of sharing.
+We are better together! Everyone who contributes to the knowledge-base is acknowledged by name in the Zenodo dataset releases (see [how to contribute](contrib.md) for details). The IBEX Imaging Community conducts discourse in a civil manner and encourages members of the community to share their scientific findings without fear of retribution. The knowledge-base was made possible by researchers like you, see [who they are](the_who.md) and our thoughts on overcoming the fear of sharing.
 
 ### <span style="color:purple"> Failure teaches success </span>
 Unlike publications, in which only successful work is described, the goal of this knowledge-base is to document both successful and failed work. By sharing failures, we advance science at a faster pace, reduce financial costs, and instill confidence in the resulting data.
