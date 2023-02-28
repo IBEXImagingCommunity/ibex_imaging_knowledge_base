@@ -46,7 +46,7 @@ Do not use non-ASCII characters such as &trade; or &alpha; (either remove or rep
 #### Adding new line:
 1. Add a line to the [reagent_resources.csv](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/blob/main/data/reagent_resources.csv).
 2. Create corresponding supporting material sub-directory using the target_conjugate as the directory name and add a markdown file with your ORCID as the file prefix (see existing files for reference). Supporting material file has a fixed layout, see [supporting_template.md](supporting_template.md).  
-**Note**: When creating the target_conjugate sub-directory you will need to replace the following characters with an underscore: " ", "\t", "/", "\", "{", "}", "[", "]", "(", ")", "<", ">", ":", "&". Consequently, supporting material for the target conjugate pair of "Chicken IgY (H&L)", "FITC" is found in a directory named "Chicken_IgY__H_L__FITC".
+**Note**: When creating the target_conjugate sub-directory you will need to replace the following characters with an underscore: space, tab, "/", "\", "{", "}", "[", "]", "(", ")", "<", ">", ":", "&". Consequently, supporting material for the target conjugate pair of "Chicken IgY (H&L)", "FITC" is found in a directory named "Chicken_IgY__H_L__FITC".
 3. Optionally add *small* (<300KB) image files (jpg) and refer to them in the supporting material file. Please format your images as 72dpi, 24bit color, 1200x1200px. Write caption identifying validated reagent. Use colorblind safe colors (e.g. cyan, red; magenta, green, blue; no green and red). Include scale bar. Use zoom that allows fine details to be seen. See an example [here](./supporting_material/CD21_PE/0000-0003-4379-8967.md).
 
 
