@@ -27,7 +27,7 @@ This knowledge-base follows the standard GitHub
 ## Adding information to the knowledge-base
 
 ### Before starting
-Create a new local git branch based off of the `main` branch ([GitHub Desktop instructions](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches#creating-a-branch)).
+Create a new local git branch based off the `main` branch ([GitHub Desktop instructions](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches#creating-a-branch)).
 
 ### Modifying the *publications.bib* file:
 Simply add an entry to the file using the appropriate [bibtex entry type](https://www.bibtex.com/e/entry-types/).

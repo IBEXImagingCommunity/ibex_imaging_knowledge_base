@@ -54,7 +54,7 @@ Unlike publications, in which only successful work is described, the goal of thi
 Our practice of sharing recommended and not recommended reagents prevents other researchers from wasting time and effort on work that is known to fail. The significant material cost of validating antibodies and developing imaging panels is well-described [[Hickey et al. 2021](https://doi.org/10.1038/s41592-021-01316-y)]. By stewarding our time and resources, we make science more equitable, allowing investigators around the world to prioritize community-validated reagents for their work.
 
 ### <span style="color:purple"> Commitment to excellence </span>
-As scientists we strive to enable others to reproduce our work, confirming or refuting our results, thus making science self-correcting. Self-correction does not happen by default, it requires an explicit effort on our part [[Ioannidis 2012](https://doi.org/10.1177/1745691612464056)]. We are committed to reporting details that are critical for the success of a reagent, e.g., antigen retrieval conditions, detergent in blocking buffer, best conjugates/formats, and alternative clones, if applicable. We, therefore, include information related to antibody validation such as positive and negative controls and other relevant details in the detailed notes section of the supporting materials files, as illustrated [here](./supporting_material/CD21_PE/0000-0003-4379-8967.md). For more details on reagent validation, please [read on](reagent_validation_details.md).
+As scientists we strive to enable others to reproduce our work, confirming or refuting our results, thus making science self-correcting. Self-correction does not happen by default; it requires an explicit effort on our part [[Ioannidis 2012](https://doi.org/10.1177/1745691612464056)]. We are committed to reporting details that are critical for the success of a reagent, e.g., antigen retrieval conditions, detergent in blocking buffer, best conjugates/formats, and alternative clones, if applicable. We, therefore, include information related to antibody validation such as positive and negative controls and other relevant details in the detailed notes section of the supporting materials files, as illustrated [here](./supporting_material/CD21_PE/0000-0003-4379-8967.md). For more details on reagent validation, please [read on](reagent_validation_details.md).
 
 
 ### <span style="color:purple"> Power of iteration </span>
@@ -62,7 +62,7 @@ This repository contains the *current state of knowledge* with respect to the IB
 
 1. Asking a question on the [discussion forum](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/discussions).
 1. Adding a publication related to a deposited reagent, dataset, protocol, software or hardware to the list of [publications](https://IBEXImagingCommunity.github.io/ibex_imaging_knowledge_base/publications.html).
-1. Confirming previous reagent results or contribute new ones (see [how to contribute](contrib.md)).
+1. Confirming previous results or contributing new ones (see [how to contribute](contrib.md)).
 
 # Funding provided by
 
