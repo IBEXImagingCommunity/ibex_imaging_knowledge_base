@@ -4,7 +4,7 @@ layout: default
 
 # Questions and Answers
 
-This file contains questions and answers addressing various aspects of the Knowledge-Base, IBEX and related methods, and software details that were not addressed in publications or which were not sufficiently clear to scientists from their descriptions in the publications.
+This file contains questions and answers addressing various aspects of the knowledge-base, IBEX and related methods, and software details that were not addressed in publications or which were not sufficiently clear to scientists from their descriptions in the publications.
 
 ---
 
@@ -14,11 +14,11 @@ If you have a question that does not appear here, please ask on the [knowledge-b
 
 ## Knowledge-Base
 
-1. **How do I contribute to the IBEX Knowledge-Base?**  
+1. **How do I contribute to the IBEX knowledge-base?**  
 Thank you for joining us! Please see instructions on how to contribute [here](contrib.md). 
 
 1. **Do you support other multiplexed imaging methods other than IBEX?**  
-Yes, the IBEX Knowledge-Base includes antibodies validated for Multiplexed 2D Imaging, Ce3D, Ce3D-IBEX, Opal-plex, and Cell DIVE-IBEX. Please see the [glossary](./contrib.md#glossary) for additional details. The knowledge-base does not presently support antibodies validated for other highly multiplexed imaging methods using antibody removal or other dye inactivation protocols.
+Yes, the IBEX knowledge-base includes antibodies validated for Multiplexed 2D Imaging, Ce3D, Ce3D-IBEX, Opal-plex, and Cell DIVE-IBEX. Please see the [glossary](./contrib.md#glossary) for additional details. The knowledge-base does not presently support antibodies validated for other highly multiplexed imaging methods using antibody removal or other dye inactivation protocols.
 
 1. **How do I find the RRID for an antibody?**  
 Many antibody companies list RRIDs on their product pages (BioLegend, BD Biosciences, Miltenyi Biotec, Thermo Fisher Scientific). If an RRID is not listed, then please search the [RRID Portal](https://scicrunch.org/resources). If an antibody does not have an RRID, then please consider [registering it](https://antibodyregistry.org/add).
