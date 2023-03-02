@@ -50,9 +50,9 @@ We are better together! Everyone who contributes to the knowledge-base is acknow
 Take pride in the community you are building by sharing the logo and QR code in your talks and presentations! If you have a design that you would like to share, please connect on the [discussion forum](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/discussions).
 
 <p align="center">
-  <a href="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/ibex_logos/IBEX_QR.png" download><img alt="IBEX Logo" src="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/ibex_logos/IBEX_White_Square.png" width="20%"></a>
+  <a href="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/ibex_logos/IBEX_White_Square.png" download><img alt="IBEX Logo" src="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/ibex_logos/IBEX_White_Square.png" width="20%" style="border: 2px blue;"></a>
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <a href="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/ibex_logos/IBEX_QR.png"><img alt="IBEX QR code" src="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/ibex_logos/IBEX_QR.png" width="20%"></a>
+  <a href="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/ibex_logos/IBEX_QR.png"><img alt="IBEX QR code" src="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/ibex_logos/IBEX_QR.png" width="20%" style="border: 2px blue;"></a>
 </p>
 
 Click the images above to download.
