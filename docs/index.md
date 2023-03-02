@@ -36,11 +36,13 @@ The IBEX Imaging Community is an international group of scientists committed to 
 
 ## Citation
 
-To cite the IBEX knowledge-base use the Digital Object Identifier (DOI) [provided by Zenodo](https://zenodo.org/). Please take care to use the DOI associated with the specific version of the knowledge-base used in your work.
+When referring to the IBEX knowledge-base in general, use the Zenodo concept level Digital Object Identifier (DOI):<br> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7693278.svg)](https://doi.org/10.5281/zenodo.7693278)
+
+To enable others to reproduce your work, please take care to cite the specific version level DOI provided by [Zenodo](https://doi.org/10.5281/zenodo.7693278), the one you downloaded.
 
 ## Download
 
-The authoritative and versioned form of the knowledge-base is available for download from [Zenodo](https://zenodo.org/).
+The authoritative and versioned forms of the knowledge-base are available for download from [Zenodo](https://doi.org/10.5281/zenodo.7693278).
 
 ## Guiding Principles
 
