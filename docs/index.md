@@ -47,6 +47,16 @@ The authoritative and versioned form of the knowledge-base is available for down
 ### <span style="color:purple"> Shared ownership </span>
 We are better together! Everyone who contributes to the knowledge-base is acknowledged by name in the Zenodo dataset releases (see [how to contribute](contrib.md) for details). The IBEX Imaging Community conducts discourse in a civil manner and encourages members of the community to share their scientific findings without fear of retribution. The knowledge-base was made possible by researchers like you, see [who they are](the_who.md) and our thoughts on overcoming the fear of sharing.
 
+Take pride in the community you are building by sharing the logo and QR code in your talks and presentations! If you have a design that you would like to share, please connect on the [discussion forum](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/discussions).
+
+<p align="center">
+  <a href="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/ibex_logos/IBEX_QR.png" download><img alt="IBEX Logo" src="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/ibex_logos/IBEX_White_Square.png" width="20%"></a>
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <a href="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/ibex_logos/IBEX_QR.png"><img alt="IBEX QR code" src="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/ibex_logos/IBEX_QR.png" width="20%"></a>
+</p>
+
+Click the images above to download.
+
 ### <span style="color:purple"> Failure teaches success </span>
 Unlike publications, in which only successful work is described, the goal of this knowledge-base is to document both successful and failed work. By sharing failures, we advance science at a faster pace, reduce financial costs, and instill confidence in the resulting data.
 
