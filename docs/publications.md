@@ -102,6 +102,17 @@ R.
 Clatworthy](mailto:cem45@hutchison-mrc.cam.ac.uk,mrc38@cam.ac.uk)\]</span></span>
 
 <span class="csl-left-margin">\[8\]
+</span><span class="csl-right-inline">C. R. Stoltzfus, J. Filipek, B. H.
+Gern, B. E. Olin, J. M. Leal, Y. Wu, M. R. Lyons-Cohen, J. Y. Huang, C.
+L. Paz-Stoltzfus, C. R. Plumlee, T. Pöschinger, K. B. Urdahl, M. Perro,
+and M. Y. Gerner, “CytoMAP: A spatial analysis toolbox reveals features
+of myeloid cell organization in lymphoid tissues,” *Cell Rep.*, vol. 31,
+no. 3, p. 107523, 2020, doi:
+[10.1016/j.celrep.2020.107523](https://doi.org/10.1016/j.celrep.2020.107523).
+<span class="csl-block"> \[Corresponding authors: [Michael Y.
+Gerner](mailto:gernermy@uw.edu)\]</span></span>
+
+<span class="csl-left-margin">\[9\]
 </span><span class="csl-right-inline">A. Gola, M. G. Dorrington, E.
 Speranza, C. Sala, R. M. Shih, A. J. Radtke, H. S. Wong, A. P. Baptista,
 J. M. Hernandez, G. Castellani, I. D. C. Fraser, and R. N. Germain,
@@ -111,7 +122,7 @@ J. M. Hernandez, G. Castellani, I. D. C. Fraser, and R. N. Germain,
 <span class="csl-block"> \[Corresponding authors: [Anita Gola, Ronald N.
 Germain](mailto:anitagola2@gmail.com,ronald.germain@nih.gov)\]</span></span>
 
-<span class="csl-left-margin">\[9\]
+<span class="csl-left-margin">\[10\]
 </span><span class="csl-right-inline">A. J. Radtke, E. Kandov, B.
 Lowekamp, E. Speranza, C. J. Chu, A. Gola, N. Thakur, R. Shih, L. Yao,
 Z. R. Yaniv, R. T. Beuschel, J. Kabat, J. Croteau, J. Davis, J. M.
@@ -124,7 +135,7 @@ vol. 117, no. 52, pp. 33455–33465, 2020, doi:
 Ronald N.
 Germain](mailto:andrea.radtke@nih.gov,ronald.germain@nih.gov)\]</span></span>
 
-<span class="csl-left-margin">\[10\]
+<span class="csl-left-margin">\[11\]
 </span><span class="csl-right-inline">E. Speranza, J. N. Purushotham, J.
 R. Port, B. Schwarz, M. Flagg, B. N. Williamson, F. Feldmann, M. Singh,
 L. Pérez-Pérez, G. L. Sturdevant, L. M. Roberts, A. Carmody, J. E.
