@@ -11,5 +11,7 @@ This page lists publicly available datasets acquired using the IBEX imaging prot
 
 # Software
 
-* SITK-IBEX: [SimpleITK](https://www.simpleitk.org) based software for aligning/registering images acquired with the IBEX microscopy imaging technique ([GitHub repository](https://github.com/niaid/sitk-ibex), License: Apache-2.0 ).
-* SimpleITK imaris extensions: [SimpleITK](https://www.simpleitk.org) based extensions for the imaris (Oxford Instruments) microscopy image analysis program. A variety of utilities including registration, channel arithmetic, virtual H&E staining and more. Extension programs can be run as standalone software without the need for the imaris software ([GitHub repository](https://github.com/niaid/imaris_extensions), License: Apache-2.0 ).
+* SITK-IBEX: [SimpleITK](https://www.simpleitk.org) based software for aligning/registering images acquired with the IBEX microscopy imaging technique ([GitHub repository](https://github.com/niaid/sitk-ibex), Python, License: Apache-2.0 ).
+* SimpleITK imaris extensions: [SimpleITK](https://www.simpleitk.org) based extensions for the imaris (Oxford Instruments) microscopy image analysis program. A variety of utilities including registration, channel arithmetic, virtual H&E staining and more. Extension programs can be run as standalone software without the need for the imaris software ([GitHub repository](https://github.com/niaid/imaris_extensions), Python, License: Apache-2.0 ).
+* CytoMAP: comprehensive platform for spatial analysis of tissues, allowing researchers to explore complex datasets structured as a csv files, with at least x-y positional data ([GitLab repository](https://gitlab.com/gernerlab/cytomap), MATLAB, License: MIT).
+
