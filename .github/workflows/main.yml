@@ -94,7 +94,7 @@ jobs:
           if ! git diff --quiet HEAD\^ HEAD -- data/publications.bib data/ibex.csl; then
             convert_bib=1
           fi
-          if ! git diff --quiet HEAD\^ HEAD -- docs_in/reagent_resources.md.in data/reagent_resources.csv data/vendors_and_urls.csv; then
+          if ! git diff --quiet HEAD\^ HEAD -- docs_in/reagent_resources.md.in data/reagent_resources.csv data/vendor_urls.csv; then
             convert_reagents=1
           fi
           if ! git diff --quiet HEAD\^ HEAD -- docs_in/index.md.in data/reagent_resources.csv; then
