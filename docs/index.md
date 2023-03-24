@@ -12,9 +12,9 @@ layout: default
     <tbody>
         <tr>
             <td style="text-align:center;"><p style="font-family:verdana;font-size:xx-large">20</p></td>
-            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">1027</p></td>
+            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">1044</p></td>
             <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">61</p></td>
-            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">44</p></td>
+            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">45</p></td>
         </tr>
         <tr>
             <td style="text-align:center;vertical-align: middle"><p style="font-family:verdana;font-size:x-large">Contributors</p></td>
