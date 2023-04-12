@@ -8,6 +8,7 @@ on:
       - docs/contrib.md
       - docs/fluorescent_probes.md
       - docs/index.md
+      - docs/protocols.md
       - docs/publications.md
       - docs/reagent_resources.md
       - docs/the_who.md
@@ -19,6 +20,7 @@ on:
       - docs/contrib.md
       - docs/fluorescent_probes.md
       - docs/index.md
+      - docs/protocols.md
       - docs/publications.md
       - docs/reagent_resources.md
       - docs/the_who.md
@@ -53,7 +55,7 @@ jobs:
     - name: Install dependencies and validate .zenodo.json file
       run: | # validate the zenodo json, the reagent data and possibly the publications.bib
         pip install --upgrade pip
-        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.4.1/ibex_imaging_knowledge_base_utilities-0.4.1-py3-none-any.whl
+        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.5.0/ibex_imaging_knowledge_base_utilities-0.5.0-py3-none-any.whl
         validate_zenodo_json .zenodo.json
   data_2_md: # run the data to markdown updates only when pushing to the main branch or forced execution via workflow_dispatch
     needs: validate_data
@@ -83,6 +85,7 @@ jobs:
         convert_fluorescent=0
         convert_the_who=0
         update_how_to_contrib=0
+        convert_protocols=0
         if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
           convert_bib=1
           convert_reagents=1
@@ -90,6 +93,7 @@ jobs:
           convert_fluorescent=1
           convert_the_who=1
           update_how_to_contrib=1
+          convert_protocols=1
         else
           if ! git diff --quiet HEAD\^ HEAD -- data/publications.bib data/ibex.csl; then
             convert_bib=1
@@ -109,6 +113,9 @@ jobs:
           if ! git diff --quiet HEAD\^ HEAD -- docs_in/contrib.md.in data/reagent_data_dict.csv data/reagent_glossary.csv; then
             update_how_to_contrib=1
           fi
+          if ! git diff --quiet HEAD\^ HEAD -- docs_in/protocols.md.in data/protocols.csv; then
+            convert_protocols=1
+          fi
         fi
         echo "convert_bib=$convert_bib" >> $GITHUB_OUTPUT
         echo "convert_reagents=$convert_reagents" >> $GITHUB_OUTPUT
@@ -116,6 +123,7 @@ jobs:
         echo "convert_fluorescent=$convert_fluorescent" >> $GITHUB_OUTPUT
         echo "convert_the_who=$convert_the_who" >> $GITHUB_OUTPUT
         echo "update_how_to_contrib=$update_how_to_contrib" >> $GITHUB_OUTPUT
+        echo "convert_protocols=$convert_protocols" >> $GITHUB_OUTPUT
     - name: Convert bibliography to markdown
       if: ${{ steps.ft.outputs.convert_bib == '1' }}
       run: |
@@ -141,6 +149,10 @@ jobs:
       if: ${{ steps.ft.outputs.update_how_to_contrib == '1' }}
       run: |
         data_dict_glossary_2_contrib_md docs_in/contrib.md.in data/reagent_data_dict.csv data/reagent_glossary.csv docs/
+    - name: Convert protocols csv to markdown
+      if: ${{ steps.ft.outputs.convert_protocols == '1' }}
+      run: |
+        protocols_csv_2_md docs_in/protocols.md.in data/protocols.csv docs/
     - name: Commit and push
       shell: bash
       run: |
