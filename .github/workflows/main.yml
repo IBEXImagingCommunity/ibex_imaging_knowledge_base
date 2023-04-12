@@ -55,7 +55,7 @@ jobs:
     - name: Install dependencies and validate .zenodo.json file
       run: | # validate the zenodo json, the reagent data and possibly the publications.bib
         pip install --upgrade pip
-        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.4.1/ibex_imaging_knowledge_base_utilities-0.4.1-py3-none-any.whl
+        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.5.0/ibex_imaging_knowledge_base_utilities-0.5.0-py3-none-any.whl
         validate_zenodo_json .zenodo.json
   data_2_md: # run the data to markdown updates only when pushing to the main branch or forced execution via workflow_dispatch
     needs: validate_data
