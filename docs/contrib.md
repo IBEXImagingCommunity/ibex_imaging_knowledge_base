@@ -43,6 +43,10 @@ Some markdown files are automatically generated (e.g. index.md, reagent_resource
 
 Add your protocol details to this csv file, title, URL which links to the protocol and the protocol details (a short abstract describing it). Do not use non-ASCII characters in the title or description. Represent them using standard ASCII, instead of &alpha; write alpha.
 
+### Modifying *videos.csv*:
+
+Add your video details to this csv file, title, URL which links to the video, the video details (a short abstract describing it) and the date. We use separate columns for year, month, day so that we do not need to remember an order, mm/dd/yy or dd/mm/yy and tools like MS Excel will not modify entries in an attempt to help us.
+
 ### Modifying *reagent_resources.csv*:
 
 Do not use non-ASCII characters such as &trade; or &alpha; (either remove or represent using standard ASCII "alpha"). For explanation of the column contents see the [reagent metadata section](#reagent-metadata).
