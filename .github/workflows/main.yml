@@ -131,7 +131,7 @@ jobs:
         echo "convert_the_who=$convert_the_who" >> $GITHUB_OUTPUT
         echo "update_how_to_contrib=$update_how_to_contrib" >> $GITHUB_OUTPUT
         echo "convert_protocols=$convert_protocols" >> $GITHUB_OUTPUT
-        echo "convert_videos=$convert_protocols" >> $GITHUB_OUTPUT
+        echo "convert_videos=$convert_videos" >> $GITHUB_OUTPUT
     - name: Convert bibliography to markdown
       if: ${{ steps.ft.outputs.convert_bib == '1' }}
       run: |
