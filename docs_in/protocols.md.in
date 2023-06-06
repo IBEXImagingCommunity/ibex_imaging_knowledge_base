@@ -9,5 +9,7 @@ layout: default
 As part of our commitment to excellence we strive to make research easily reproducible. We encourage the publication of detailed protocols covering all aspects of the experimental work including hardware construction, sample preparation, image settings, and computational analysis of the final images. Ideally, all protocols would be hosted on a single platform  (e.g. [protocols.io](https://www.protocols.io/)).
  
 While that is the ideal, in practice we know there are multiple protocol repositories and we do not want to limit your choices. This page serves as a central location, referencing protocols across the various hosting platforms.
- 
+
+Have a protocol that you would like to share? Follow the [how to contribute instructions](contrib.md).
+
 {protocols_table}
