@@ -11,8 +11,8 @@ layout: default
 <table style="margin-left: auto;margin-right: auto; border: 2px solid purple; border-radius: 20px;">
     <tbody>
         <tr>
-            <td style="text-align:center;"><p style="font-family:verdana;font-size:xx-large">20</p></td>
-            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">1049</p></td>
+            <td style="text-align:center;"><p style="font-family:verdana;font-size:xx-large">21</p></td>
+            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">1050</p></td>
             <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">61</p></td>
             <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">47</p></td>
         </tr>
