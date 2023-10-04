@@ -40,6 +40,12 @@ When referring to the IBEX knowledge-base in general, use the Zenodo concept lev
 
 To enable others to reproduce your work, please take care to cite the specific version level DOI provided by [Zenodo](https://doi.org/10.5281/zenodo.7693278), the one you downloaded.
 
+**Contributors**
+
+Open science is obviously something you support and practice. Don't forget to highlight this in your biosketch or c.v. If using the NIH biosketch format, we recommend listing the knowledge-base under the "Contributions to Science" section.  If using a generic c.v. format, we recommend listing the knowledge-base under a "Datasets" section.
+
+The current knowledge-base usage statistics are available on its [Zenodo page](https://doi.org/10.5281/zenodo.7693278).
+
 ## Download
 
 The authoritative and versioned forms of the knowledge-base are available for download from [Zenodo](https://doi.org/10.5281/zenodo.7693278).
