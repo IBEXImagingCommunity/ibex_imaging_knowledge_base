@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Data and Software
 
 This page lists publicly available datasets acquired using the IBEX imaging protocol and software that was specifically developed for processing and analyzing multiplex imaging.
