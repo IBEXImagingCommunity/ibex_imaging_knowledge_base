@@ -11,10 +11,10 @@ layout: default
 <table style="margin-left: auto;margin-right: auto; border: 2px solid purple; border-radius: 20px;">
     <tbody>
         <tr>
-            <td style="text-align:center;"><p style="font-family:verdana;font-size:xx-large">21</p></td>
-            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">1063</p></td>
-            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">61</p></td>
-            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">47</p></td>
+            <td style="text-align:center;"><p style="font-family:verdana;font-size:xx-large">22</p></td>
+            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">1074</p></td>
+            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">62</p></td>
+            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">49</p></td>
         </tr>
         <tr>
             <td style="text-align:center;vertical-align: middle"><p style="font-family:verdana;font-size:x-large">Contributors</p></td>
