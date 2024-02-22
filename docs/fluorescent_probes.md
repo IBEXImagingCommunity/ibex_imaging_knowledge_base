@@ -33,6 +33,7 @@ Results are reported for the original IBEX2D Manual method that uses 1 mg/ml of 
 | AF488 (Plus)                     | 490                   | 525                 | 1 mg/ml LiBH4 15 minutes                                      |
 | FITC                             | 490                   | 525                 | 1 mg/ml LiBH4 30 minutes                                      |
 | CL490                            | 491                   | 515                 | 1 mg/ml LiBH4 15 minutes                                      |
+| CoraLite Plus 488                | 493                   | 522                 | 1 mg/ml LiBH4 15 minutes                                      |
 | Spark Blue 574                   | 506                   | 574                 | 1 mg/ml LiBH4 15 minutes                                      |
 | iF514                            | 511                   | 527                 | Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment  |
 | Yellow Fluorescent Protein (YFP) | 513                   | 527                 | Does not bleach                                               |
