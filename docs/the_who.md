@@ -23,6 +23,7 @@ Join the following people who have made contributions to the knowledge-base:
 1. Colautti, Jake, McMaster University, [0000-0002-1461-0999](https://orcid.org/0000-0002-1461-0999).
 1. Croteau, Joshua, BioLegend Inc., [0000-0002-8142-0482](https://orcid.org/0000-0002-8142-0482).
 1. Dutra, Walderez, Universidade Federal de Minas Gerais, [0000-0002-7586-9996](https://orcid.org/0000-0002-7586-9996).
+1. Fritzsche, Sonja, Max Delbrück Center for Molecular Medicine, [0000-0003-3335-3534](https://orcid.org/0000-0003-3335-3534).
 1. Fullam, Spencer, Rush University, [0000-0001-9012-3802](https://orcid.org/0000-0001-9012-3802).
 1. Gerner, Michael, University of Washington, [0000-0001-5406-8308](https://orcid.org/0000-0001-5406-8308).
 1. Gola, Anita, Rockefeller University, [0000-0003-1431-1398](https://orcid.org/0000-0003-1431-1398).
