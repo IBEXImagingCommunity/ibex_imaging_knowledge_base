@@ -20,7 +20,7 @@ This knowledge-base follows the standard GitHub
 
 ## One time setup
 1. If you are comfortable working with git and GitHub from the command-line, install [git](https://git-scm.com/downloads). Otherwise, download the [GitHub Desktop](https://desktop.github.com/) application and [read the installation and configuration help](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop).
-3. Fork the [IBEX Imaging Community repository](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base) and clone it to a local directory ([GitHub Desktop instructions](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop)).
+3. Fork the [IBEX Imaging Community repository](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base) and clone it to a local directory ([GitHub Desktop instructions](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop)).
 4. If you are adding information to the reagent_resources.csv, contributing a protocol or sharing a hardware design, add your information to the "creators" section in the .zenodo.json file (This is a hidden file. To see it on windows, open file-explorer and select View->Show->Hidden items).
 **Note**: Additions should maintain alphabetical order based on last name and be inserted between the first and last two entries (these three entries remain in their fixed locations in the list).
 
