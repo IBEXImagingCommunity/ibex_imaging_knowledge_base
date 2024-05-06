@@ -33,6 +33,7 @@ Join the following people who have made contributions to the knowledge-base:
 1. Kandov, Evelyn, National Institutes of Health, [0000-0001-7071-9916](https://orcid.org/0000-0001-7071-9916).
 1. Kastenmüller, Wolfgang, Julius Maximilians Universität Würzburg, [0000-0002-3835-1485](https://orcid.org/0000-0002-3835-1485).
 1. Koenig, Joshua F. E., McMaster University, [0000-0002-8909-5039](https://orcid.org/0000-0002-8909-5039).
+1. Lamborn, Ian, National Institutes of Health, [0009-0006-1490-3667](https://orcid.org/0009-0006-1490-3667).
 1. Makranz, Chen, National Institutes of Health, [0000-0002-6944-6997](https://orcid.org/0000-0002-6944-6997).
 1. Murakami Olyntho, Vitoria, McMaster University, [0000-0003-2634-6838](https://orcid.org/0000-0003-2634-6838).
 1. Padhan, Kartika, National Institutes of Health, [0000-0001-9561-4256](https://orcid.org/0000-0001-9561-4256).
