@@ -29,6 +29,7 @@ Join the following people who have made contributions to the knowledge-base:
 1. Gola, Anita, Rockefeller University, [0000-0003-1431-1398](https://orcid.org/0000-0003-1431-1398).
 1. Gollob, Kenneth J., Hospital Israelita Albert Einstein, [0000-0003-4184-3867](https://orcid.org/0000-0003-4184-3867).
 1. Ichise, Hiroshi, National Institutes of Health, [0000-0002-5187-810X](https://orcid.org/0000-0002-5187-810X).
+1. Jing, Zhixin, National Institutes of Health, [0000-0003-1118-7432](https://orcid.org/0000-0003-1118-7432).
 1. Jonigk, Danny, University Hospital Aachen, [0000-0002-5251-2281](https://orcid.org/0000-0002-5251-2281).
 1. Kandov, Evelyn, National Institutes of Health, [0000-0001-7071-9916](https://orcid.org/0000-0001-7071-9916).
 1. Kastenmüller, Wolfgang, Julius Maximilians Universität Würzburg, [0000-0002-3835-1485](https://orcid.org/0000-0002-3835-1485).
