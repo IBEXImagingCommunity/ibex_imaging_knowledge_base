@@ -66,7 +66,7 @@ First, use a non-curing, water soluble mounting medium (Fluoromount-G). Place th
 ## Software
 
 1. **When following the SimpleITK Imaris Extensions [setup instructions](https://github.com/niaid/imaris_extensions#setup) I get the following error, "CondaHTTPError: HTTP 000 CONNECTION FAILED for url...". What should I do?**  
-This error is most likely due to your institution's proxy server security settings. To resolve proxy server issues, see the [instructions provided in the anaconda documentation](https://docs.anaconda.com/anaconda/user-guide/tasks/proxy/) and possibly the instructions for using [non standard certificates](https://conda.io/projects/conda/en/latest/user-guide/configuration/non-standard-certs.html).
+This error is most likely due to your institution's proxy server security settings. To resolve proxy server issues, see the [instructions provided in the anaconda documentation](https://docs.anaconda.com/working-with-conda/reference/security/#using-anaconda-behind-a-company-proxy) and possibly the instructions for using [non standard certificates](https://conda.io/projects/conda/en/latest/user-guide/configuration/non-standard-certs.html).
 This [stack-overflow discussion](https://stackoverflow.com/questions/33883371/python-anaconda-proxy-setup-via-condarc-file-on-windows) may also be of interest.  
 Another possible solution is to install packages from PyPi using the `requirements.txt` file found in the source root directory:  
     ```
