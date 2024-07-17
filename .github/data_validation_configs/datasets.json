@@ -1,0 +1,20 @@
+{
+   "data_required_column_names":[
+      "Title",
+      "Year",
+      "URL"
+   ],
+   "data_optional_column_names":[
+      "Details",
+      "Associated Publication DOIs",
+      "License"
+   ],
+   "unique_single_value_columns":[
+      "Title",
+      "URL",
+      "Details"
+   ],
+   "multi_doi_columns":[
+      "Associated Publication DOIs"
+   ]
+}

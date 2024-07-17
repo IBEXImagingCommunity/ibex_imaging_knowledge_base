@@ -1,0 +1,12 @@
+{
+   "data_required_column_names":[
+      "Vendor"
+   ],
+   "data_optional_column_names":[
+      "URL"
+   ],
+   "unique_single_value_columns":[
+      "Vendor",
+      "URL"
+   ]
+}

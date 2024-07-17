@@ -1,0 +1,11 @@
+{
+   "data_required_column_names":[
+      "Fluorescent Probe",
+      "Excitation Max (nm)",
+      "Emission Max (nm)",
+      "Signal Inactivation Conditions IBEX2D Manual"
+   ],
+   "unique_single_value_columns":[
+      "Fluorescent Probe"
+   ]
+}

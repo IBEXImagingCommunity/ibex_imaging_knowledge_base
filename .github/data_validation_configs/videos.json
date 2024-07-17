@@ -1,0 +1,21 @@
+{
+   "data_required_column_names":[
+      "Title",
+      "URL",
+      "Category",
+      "Year",
+      "Month",
+      "Day"
+   ],
+   "data_optional_column_names":[
+      "Details",
+      "Contributors"
+   ],
+   "unique_single_value_columns":[
+      "Title",
+      "URL"
+   ],
+   "url_columns":[
+      "URL"
+   ]
+}
