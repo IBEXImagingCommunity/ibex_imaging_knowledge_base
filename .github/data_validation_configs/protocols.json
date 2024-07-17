@@ -1,0 +1,13 @@
+{
+   "data_required_column_names":[
+      "Title",
+      "URL"
+   ],
+   "data_optional_column_names":[
+      "Details"
+   ],
+   "unique_single_value_columns":[
+      "Title",
+      "URL"
+   ]
+}
