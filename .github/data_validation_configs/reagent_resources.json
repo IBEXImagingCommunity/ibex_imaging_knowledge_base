@@ -38,12 +38,19 @@
           "Primary Antibody",
           "Secondary Antibody",
           "Streptavidin Conjugate",
-          "Zenon Labeling Kit"
+          "Zenon Labeling Kit",
+          "FlexAble CoraLite Plus 488 Antibody Labeling Kit for Rabbit IgG",
+          "FlexAble CoraLite Plus 750 Antibody Labeling Kit for Rabbit IgG",
+          "FlexAble CoraLite Plus 555 Antibody Labeling Kit for Mouse IgG1",
+          "FlexAble CoraLite Plus 647 Antibody Labeling Kit for Mouse IgG1",
+          "FlexAble CoraLite Plus 550 Antibody Labeling Kit for Rabbit IgG"
        ],
        "Target Species":[
           "Human",
           "Mouse",
-          "Rhesus Macaque"
+          "Rhesus Macaque",
+          "Zebrafish",
+          "Jellyfish GFP transgene"
        ],
        "Host Organism":[
           "Alpaca",
@@ -104,6 +111,10 @@
           "CL594",
           "CL650",
           "CoraLite Plus AF488",
+          "CoraLite Plus AF647",
+          "CoraLite Plus AF550",
+          "CoraLite Plus AF750",
+          "CoraLite Plus AF555",
           "DL755",
           "DyLight 488",
           "FITC",
@@ -203,12 +214,13 @@
           "Metastatic",
           "Metastatic Ovarian Cancer",
           "NA",
-          "Tumor"
+          "Tumor",
+          "GFP transgenic line"
        ],
        "Detergent":[
           "0.1% Saponin",
-          "0.3%  Triton-X-100",
           "0.3% Triton-X-100",
+          "0.1% Triton-X-100",
           "1:10 BD PermWash",
           "Akoya Antibody Diluent",
           "NA"
@@ -219,7 +231,8 @@
           "pH 6 for 30 minutes ER1 (AR9961) and pH 9 for 30 minutes ER2 (AR9640) using the Leica Bond",
           "pH 6 for 30 minutes ER1 (AR9961) using the Leica Bond",
           "pH 6 for 40 minutes at 95C (AR6 Akoya Biosciences AR600250ML)",
-          "pH 9.5 for 15 minutes in a pressure cooker (Borg Decloaker BD1000)"
+          "pH 9.5 for 15 minutes in a pressure cooker (Borg Decloaker BD1000)",
+          "pH 6 (10 mM Sodium Citrate) for 20 minutes in a pressure cooker"
        ],
        "Dye Inactivation Conditions":[
           "0.5 mg/ml LiBH4 10 minutes continuous exchange with automated protocol",
@@ -229,6 +242,7 @@
           "1 mg/ml LiBH4 15 minutes + light",
           "1 mg/ml LiBH4 30 minutes",
           "1 mg/ml LiBH4 for more than 120 minutes",
+          "1 mg/ml LiBH4 30 minutes + light",
           "NA"
        ],
        "Recommend":[
