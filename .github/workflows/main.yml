@@ -59,7 +59,7 @@ jobs:
     - name: Install dependencies and validate data
       run: | # validate the various data files, update the wheel version here whenever the validation scripts are updated
         pip install --upgrade pip
-        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.8.1/ibex_imaging_knowledge_base_utilities-0.8.1-py3-none-any.whl
+        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.8.2/ibex_imaging_knowledge_base_utilities-0.8.2-py3-none-any.whl
         validate_zenodo_json .zenodo.json
         validate_bibfile data/publications.bib
         validate_basic data/protocols.csv .github/data_validation_configs/protocols.json
@@ -69,7 +69,7 @@ jobs:
         validate_basic data/fluorescent_probes.csv .github/data_validation_configs/fluorescent_probes.json
         validate_videos data/videos.csv .github/data_validation_configs/videos.json .zenodo.json
         validate_image_resources data/image_resources.csv .github/data_validation_configs/image_resources.json docs/supporting_material
-        validate_reagent_resources data/reagent_resources.csv .github/data_validation_configs/reagent_resources.json .zenodo.json docs/supporting_material
+        validate_reagent_resources data/reagent_resources.csv .github/data_validation_configs/reagent_resources.json .zenodo.json data/vendor_urls.csv docs/supporting_material
   data_2_md: # run the data to markdown updates only when pushing to the main branch or forced execution via workflow_dispatch
     needs: validate_data
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'}}
