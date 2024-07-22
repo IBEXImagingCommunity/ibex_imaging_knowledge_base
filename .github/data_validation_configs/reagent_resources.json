@@ -50,7 +50,8 @@
           "Mouse",
           "Rhesus Macaque",
           "Zebrafish",
-          "Jellyfish GFP transgene"
+          "Jellyfish GFP transgene",
+          "Canine"
        ],
        "Host Organism":[
           "Alpaca",
@@ -215,7 +216,8 @@
           "Metastatic Ovarian Cancer",
           "NA",
           "Tumor",
-          "GFP transgenic line"
+          "GFP transgenic line",
+          "Melanoma"
        ],
        "Detergent":[
           "0.1% Saponin",
@@ -232,7 +234,9 @@
           "pH 6 for 30 minutes ER1 (AR9961) using the Leica Bond",
           "pH 6 for 40 minutes at 95C (AR6 Akoya Biosciences AR600250ML)",
           "pH 9.5 for 15 minutes in a pressure cooker (Borg Decloaker BD1000)",
-          "pH 6 (10 mM Sodium Citrate) for 20 minutes in a pressure cooker"
+          "pH 6 (10 mM Sodium Citrate) for 20 minutes in a pressure cooker",
+          "pH 6 (Sodium Citrate buffer) for 45 minutes",
+          "pH 6 for 20 minutes ER1 (AR9961) using the Leica Bond"
        ],
        "Dye Inactivation Conditions":[
           "0.5 mg/ml LiBH4 10 minutes continuous exchange with automated protocol",
@@ -243,6 +247,7 @@
           "1 mg/ml LiBH4 30 minutes",
           "1 mg/ml LiBH4 for more than 120 minutes",
           "1 mg/ml LiBH4 30 minutes + light",
+          "Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment",
           "NA"
        ],
        "Recommend":[
