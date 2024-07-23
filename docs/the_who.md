@@ -22,6 +22,7 @@ Join the following people who have made contributions to the knowledge-base:
 1. Clatworthy, Menna, University of Cambridge, [0000-0002-3340-9828](https://orcid.org/0000-0002-3340-9828).
 1. Colautti, Jake, McMaster University, [0000-0002-1461-0999](https://orcid.org/0000-0002-1461-0999).
 1. Croteau, Joshua, BioLegend Inc., [0000-0002-8142-0482](https://orcid.org/0000-0002-8142-0482).
+1. Dever, Rose, National Institutes of Health, [0009-0004-2746-8743](https://orcid.org/0009-0004-2746-8743).
 1. Dutra, Walderez, Universidade Federal de Minas Gerais, [0000-0002-7586-9996](https://orcid.org/0000-0002-7586-9996).
 1. Fritzsche, Sonja, Max Delbrück Center for Molecular Medicine, [0000-0003-3335-3534](https://orcid.org/0000-0003-3335-3534).
 1. Fullam, Spencer, Rush University, [0000-0001-9012-3802](https://orcid.org/0000-0001-9012-3802).
@@ -42,6 +43,7 @@ Join the following people who have made contributions to the knowledge-base:
 1. Murakami Olyntho, Vitoria, McMaster University, [0000-0003-2634-6838](https://orcid.org/0000-0003-2634-6838).
 1. Padhan, Kartika, National Institutes of Health, [0000-0001-9561-4256](https://orcid.org/0000-0001-9561-4256).
 1. Richoz, Nathan, University of Cambridge, [0000-0002-7422-3237](https://orcid.org/0000-0002-7422-3237).
+1. Shi, Lihong, National Institutes of Health, [0000-0002-6604-2065](https://orcid.org/0000-0002-6604-2065).
 1. Shih, Rochelle, National Institutes of Health, [0000-0002-3218-4479](https://orcid.org/0000-0002-3218-4479).
 1. Speranza, Emily, Cleveland Clinic Lerner Research Institute, [0000-0003-0666-4804](https://orcid.org/0000-0003-0666-4804).
 1. Teichmann, Sarah, Wellcome Sanger Institute, [0000-0002-6294-6366](https://orcid.org/0000-0002-6294-6366).
