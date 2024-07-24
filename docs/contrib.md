@@ -51,7 +51,7 @@ Add your video details to this csv file, title, URL which links to the video, th
 
 Do not use non-ASCII characters such as &trade; or &alpha; (either remove or represent using standard ASCII "alpha"). For explanation of the column contents see the [reagent metadata section](#reagent-metadata).
 
-**Note**: If using excel or google docs to edit the file, do not open it in the usual manner. If you do, the program will automatically convert text to a guesstimated type. In our case, a conjugate such as 9E10 will be converted to a number, 90000000000. To avoid this behavior we first open an empty spreadsheet in the relevant program and then **import** the csv file. During the import processes you will first select the delimiter, comma in our case. You will then need to specify the column type as "text" for all columns.
+**Note**: If using excel or google docs to edit the file, you need to be careful if your preferences include automatic data conversion, as this may change the file content incorrectly. In our case, a conjugate such as 9E10 will be converted to a number, 90000000000. In excel, disable the "Automatic Data Conversion" before opening the file. In google docs open an empty spreadsheet and then **import** the csv file. During the import processes you will first select the delimiter, comma in our case. You will then need to specify the column type as "text" for all columns.
 
 #### Adding new line:
 1. Add a line to the [reagent_resources.csv](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/blob/main/data/reagent_resources.csv).
