@@ -22,6 +22,7 @@ Join the following people who have made contributions to the knowledge-base:
 1. Clatworthy, Menna, University of Cambridge, [0000-0002-3340-9828](https://orcid.org/0000-0002-3340-9828).
 1. Colautti, Jake, McMaster University, [0000-0002-1461-0999](https://orcid.org/0000-0002-1461-0999).
 1. Croteau, Joshua, BioLegend Inc., [0000-0002-8142-0482](https://orcid.org/0000-0002-8142-0482).
+1. Denha, Saven, McMaster University, [0009-0004-8162-409X](https://orcid.org/0009-0004-8162-409X).
 1. Dever, Rose, National Institutes of Health, [0009-0004-2746-8743](https://orcid.org/0009-0004-2746-8743).
 1. Dutra, Walderez, Universidade Federal de Minas Gerais, [0000-0002-7586-9996](https://orcid.org/0000-0002-7586-9996).
 1. Fritzsche, Sonja, Max Delbrück Center for Molecular Medicine, [0000-0003-3335-3534](https://orcid.org/0000-0003-3335-3534).
