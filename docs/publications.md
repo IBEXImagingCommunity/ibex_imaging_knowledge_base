@@ -72,7 +72,7 @@ polarization using murine precision-cut lung slices,” *bioRxiv*, 2024,
 doi:
 [10.1101/2024.07.05.602278](https://doi.org/10.1101/2024.07.05.602278).
 <span class="csl-block"> \[Corresponding authors: [Kjetil
-Ask](askkj@mcmaster.ca)\]</span></span>
+Ask](mailto:askkj@mcmaster.ca)\]</span></span>
 
 <span class="csl-left-margin">\[7\]
 </span><span class="csl-right-inline">E. M. Quardokus, D. C. Saunders,
