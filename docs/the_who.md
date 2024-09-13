@@ -45,6 +45,7 @@ Join the following people who have made contributions to the knowledge-base:
 1. Murakami Olyntho, Vitoria, McMaster University, [0000-0003-2634-6838](https://orcid.org/0000-0003-2634-6838).
 1. Padhan, Kartika, National Institutes of Health, [0000-0001-9561-4256](https://orcid.org/0000-0001-9561-4256).
 1. Richoz, Nathan, University of Cambridge, [0000-0002-7422-3237](https://orcid.org/0000-0002-7422-3237).
+1. Shang, Wanjing, National Institutes of Health, [0009-0007-0646-7946](https://orcid.org/0009-0007-0646-7946).
 1. Shi, Lihong, National Institutes of Health, [0000-0002-6604-2065](https://orcid.org/0000-0002-6604-2065).
 1. Shih, Rochelle, National Institutes of Health, [0000-0002-3218-4479](https://orcid.org/0000-0002-3218-4479).
 1. Speranza, Emily, Cleveland Clinic Lerner Research Institute, [0000-0003-0666-4804](https://orcid.org/0000-0003-0666-4804).
