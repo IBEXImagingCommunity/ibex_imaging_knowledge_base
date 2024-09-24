@@ -14,6 +14,10 @@ If you have a question that does not appear here, please ask on the [knowledge-b
 
 ## Knowledge-Base
 
+1. **Can I freely use the contents of the knowlege-base?**  
+Yes, the knowldge-base contents are made available under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).  
+This means you can freely use the data both for commercial and academic purposes as long as you provide attribution. General attirbution to the knowledge-base should reference the specific [Zenodo](https://doi.org/10.5281/zenodo.7693278) DOI associated with the dataset version in use. When appropriate, also acknowledge the specific individual that contributed the data. Inividual contributors are identified by their [ORCID](https://orcid.org/), listed in the reagent_resources.csv file.
+
 1. **How do I contribute to the IBEX knowledge-base?**  
 Thank you for joining us! Please see instructions on how to contribute [here](contrib.md). 
 
