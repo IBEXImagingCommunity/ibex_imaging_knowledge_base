@@ -17,5 +17,11 @@
    ],
    "url_columns":[
       "URL"
-   ]
+   ],
+   "column_is_in":{
+      "Category":[
+          "general",
+          "tutorial"
+       ]
+   }
 }
