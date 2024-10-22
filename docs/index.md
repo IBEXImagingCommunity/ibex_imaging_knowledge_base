@@ -10,7 +10,7 @@ layout: default
     <tbody>
         <tr>
             <td style="text-align:center;"><p style="font-family:verdana;font-size:xx-large">32</p></td>
-            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">1220</p></td>
+            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">1229</p></td>
             <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">67</p></td>
             <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">58</p></td>
         </tr>
