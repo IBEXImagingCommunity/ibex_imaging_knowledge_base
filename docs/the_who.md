@@ -42,6 +42,7 @@ Join the following people who have made contributions to the knowledge-base:
 1. Lin, Yuri, National Institutes of Health, [0009-0006-9784-2694](https://orcid.org/0009-0006-9784-2694).
 1. Luz, Jean Carlos Dos Santos, University of São Paulo, [0000-0001-5088-7808](https://orcid.org/0000-0001-5088-7808).
 1. Makranz, Chen, National Institutes of Health, [0000-0002-6944-6997](https://orcid.org/0000-0002-6944-6997).
+1. Moriarty, Ryan V., Northwestern, [0000-0001-7100-1906](https://orcid.org/0000-0001-7100-1906).
 1. Murakami Olyntho, Vitoria, McMaster University, [0000-0003-2634-6838](https://orcid.org/0000-0003-2634-6838).
 1. Padhan, Kartika, National Institutes of Health, [0000-0001-9561-4256](https://orcid.org/0000-0001-9561-4256).
 1. Richoz, Nathan, University of Cambridge, [0000-0002-7422-3237](https://orcid.org/0000-0002-7422-3237).
