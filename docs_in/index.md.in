@@ -17,7 +17,7 @@ layout: default
         <tr>
             <td style="text-align:center;vertical-align: middle"><p style="font-family:verdana;font-size:x-large">Contributors</p></td>
             <td style="text-align:center;vertical-align: middle"><p style="font-family:verdana;font-size:x-large">Community Validated<br>Reagents</p></td>
-            <td style="text-align:center;vertical-align: middle"><p style="font-family:verdana;font-size:x-large">Fluorescent Probes<br>Tested</p></td>
+            <td style="text-align:center;vertical-align: middle"><a href="https://ibeximagingcommunity.github.io/ibex_imaging_knowledge_base/fluorescent_probes.html"><p style="font-family:verdana;font-size:x-large">Fluorescent Probes<br>Tested</p></a></td>
             <td style="text-align:center;vertical-align: middle"><p style="font-family:verdana;font-size:x-large">Tissues</p></td>
         </tr>
     </tbody>
