@@ -13,3 +13,26 @@ Leica LAS X Linked Shading: Fluorescence,https://www.youtube.com/watch?v=9l_DmMm
 Leica LAS X THUNDER Tutorial,https://www.youtube.com/watch?v=36HqrFyy0fQ,"This video shows how to ""THUNDER"" images in LAS X on-the-fly or post-acquisition with the default settings. (v. 3.7.1 - Widefield). This is only available on THUNDER Imagers.",tutorial,2020,6,9,
 Leica LAS X Software Experiment Setup: Z-stack,https://www.youtube.com/watch?v=dTMF01cO7lI,"How to set up a Z-stack in LAS X v 3.3 (widefield). Note: the example in this video was for a data set that was intended for deconvolution, so it goes slightly beyond the focus on either end. The usual recommendation is to stay mostly in focus for all of your Z planes, so that subsequent 2D projections (such as a maximum intensity projection or extended depth of focus projection) will be clearer.",tutorial,2020,6,9,
 Automated IBEX multiplex immunohistochemistry using Fluigent's ARIA,https://www.youtube.com/watch?v=mp-gj1O3ntE,"In this webinar, Dr. Colin Chu (UCL Institute of Ophthalmology, UK) presents the integration of the ARIA fluidics device and THUNDER imager developed in the Germain laboratory at the NIH. Additionally, Dr. Chu describes how he extended the automated IBEX method, developed with James Marr, Andrea Radtke, and Ziv Yaniv, to the retina with his team at UCL. Image credits: Stained glass window cover slide and promotional material (Andrea Radtke and Stefan Uderhardt), lymph node IBEX images (Andrea Radtke), jejunum IBEX images (Andrea Radtke and Colin Chu), skin automated IBEX images (Hiroshi Ichise and Andrea Radtke). The original IBEX method and image alignment software was developed by Drs. Andrea Radtke and Ziv Yaniv at the NIH.",general,2024,6,30,0000-0003-2088-8310
+Accelerating discovery together: A community approach to multiplexed tissue imaging,https://www.youtube.com/watch?v=GsoJdrszzVc,"<p>
+This webinar gives a broad overview of spatial biology techniques with a special emphasis on the iterative bleaching extends multiplexity (IBEX) technique, an open source method for highly multiplexed imaging (65+ parameters). In the webinar, Dr. Radtke describes two communities working to reduce the time, cost, and expertise required to adopt multiplexed antibody-based imaging approaches. The first resource is the IBEX Knowledge-Base, an open, global repository for reagents, protocols, datasets, and software related to IBEX and other spatial biology methods. Here, Dr. Radtke reviews the design, motivation, and utility of the IBEX Knowledge-Base and associated community. The second resource, led by the Human BioMolecular Atlas Program (HuBMAP), involves the publication of community-validated Organ Mapping Antibody Panels (OMAPs). 
+</p>
+
+<p>
+This webinar was initially recorded for the Nature Spatial Biology Conference, October 29th, 2024. Helpful resources mentioned in the talk
+<ul>
+  <li>
+  Reviews on multiplexed tissue imaging: <a href=""https://doi.org/10.1038/s41592-021-01316-y"">https://doi.org/10.1038/s41592-021-01316-y</a>, <a href=""https://doi.org/10.1182/blood.2023020999"">https://doi.org/10.1182/blood.2023020999</a>.
+  </li>
+  <li>
+  IBEX: <a href=""https://doi.org/10.1073/pnas.2018488117"">https://doi.org/10.1073/pnas.2018488117</a>, <a href=""https://doi.org/10.1038/s41596-021-00644-9"">https://doi.org/10.1038/s41596-021-00644-9</a>.
+  </li>
+  <li>
+   IBEX applications: <a href=""https://doi.org/10.1016/j.ccell.2024.02.001"">https://doi.org/10.1016/j.ccell.2024.02.001</a>, <a href=""https://doi.org/10.1038/s41586-024-07944-6"">https://doi.org/10.1038/s41586-024-07944-6</a>.
+  </li>
+  <li>
+  IBEX Knowledge-Base: <a href=""https://ibeximagingcommunity.github.io/ibex_imaging_knowledge_base/"">https://ibeximagingcommunity.github.io/ibex_imaging_knowledge_base/</a>, <a href=""https://doi.org/10.5281/zenodo.13122300"">https://doi.org/10.5281/zenodo.13122300</a>.
+  </li>
+  <li>OMAPs: <a href=""https://doi.org/10.1038/s41592-023-01846-7"">https://doi.org/10.1038/s41592-023-01846-7</a>, <a href=""https://humanatlas.io/omap"">https://humanatlas.io/omap</a>
+  </li>
+ </ul>
+ </p>",general,2024,12,6,0000-0003-4379-8967
