@@ -128,6 +128,7 @@
           "PE/Dazzle AF594",
           "PE/iF594",
           "Pacific Blue",
+          "PerCP-eF710",
           "PerCP-Vio 700",
           "RY586",
           "Spark Blue 574",
@@ -207,7 +208,8 @@
           "Tonsil",
           "Tumor",
           "Uterus",
-          "Nasal Polyp"
+          "Nasal Polyp",
+          "Placenta"
        ],
        "Tissue State":[
           "Cancer",
