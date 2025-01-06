@@ -26,6 +26,7 @@ Results are reported for the original IBEX2D Manual method that uses 1 mg/ml of 
 | Pacific Blue                     | 410                   | 455                 | 1 mg/ml LiBH4 15 minutes                                      |
 | Cyan Fluorescent Protein (CFP)   | 435                   | 485                 | Does not bleach                                               |
 | StarBright Blue 700              | 473                   | 703                 | Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment  |
+| PerCP-eF710                      | 480                   | 710                 | Not tested                                                    |
 | PerCP-Vio 700                    | 482                   | 704                 | Not tested                                                    |
 | Green Fluorescent Protein (GFP)  | 488                   | 510                 | Does not bleach                                               |
 | iF488                            | 488                   | 530                 | 1 mg/ml LiBH4 15 minutes                                      |

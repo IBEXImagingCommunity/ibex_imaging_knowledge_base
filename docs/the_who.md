@@ -19,6 +19,7 @@ Join the following people who have made contributions to the knowledge-base:
 1. Beuschel, Rebecca T., National Institutes of Health, [0000-0002-3882-457X](https://orcid.org/0000-0002-3882-457X).
 1. Börner, Katy, Indiana University, [0000-0002-3321-6137](https://orcid.org/0000-0002-3321-6137).
 1. Chu, Colin J., University College London, [0000-0003-2088-8310](https://orcid.org/0000-0003-2088-8310).
+1. Clark, Beatrice, National Institutes of Health, [0009-0003-9817-7874](https://orcid.org/0009-0003-9817-7874).
 1. Clatworthy, Menna, University of Cambridge, [0000-0002-3340-9828](https://orcid.org/0000-0002-3340-9828).
 1. Colautti, Jake, McMaster University, [0000-0002-1461-0999](https://orcid.org/0000-0002-1461-0999).
 1. Croteau, Joshua, BioLegend Inc., [0000-0002-8142-0482](https://orcid.org/0000-0002-8142-0482).
