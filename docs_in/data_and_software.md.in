@@ -8,7 +8,7 @@ layout: default
 
 This page lists publicly available datasets acquired using the IBEX imaging protocol and software that was specifically developed for processing and analyzing multiplex imaging. Lists are in reverse chronological order of data/software availability.
 
-If you find the data or software useful in your work, please cite it. We encourage citation of data and software independent of a publication when possible (when they have their own DOI). This enables the community to separate between the utility of a dataset or software from the utility of the scientific work in which it was originally acquired or created.
+If you find the data or software useful in your work, please cite it. We encourage citation of data and software independent of a publication when possible (when they have their own DOI). This enables the community to separate between the utility of a dataset or software from the utility of the scientific work in which it was originally acquired or created. If applicable, include details about image correction methods used in the creation of the uploaded datasets in the description, e.g., background subtraction, channel thresholding, etc.
 
 ## Data
 
