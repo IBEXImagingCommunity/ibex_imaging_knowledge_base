@@ -54,7 +54,13 @@ All of the data (images, text etc.) is made available under a [Creative Commons 
 
 ## Download
 
-The authoritative and versioned forms of the knowledge-base are available for download from [Zenodo](https://doi.org/10.5281/zenodo.7693278).
+There are two easy ways to download the knowledge-base contents to your local computer:
+1. Authoritative and versioned forms of the knowledge-base are available for download from the [knowledge-base dataset archive](https://doi.org/10.5281/zenodo.7693278) on Zenodo.
+1. The latest, non-authoritative version, which is what you are currently reading, is available for download from GitHub as a [zip file](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/archive/refs/heads/main.zip).
+
+Once you have a local copy of the knowledge-base the primary directories of interest are `data` and `docs\supporting_material`. The key elements of interest are the comma separated value (csv) files found in the `data` directory and the image and detailed guidance files found in the  `supporting_material` sub-directories.
+
+Note that the supporting material raw [markdown](https://en.wikipedia.org/wiki/Markdown) (md) files can be read by any text editor. For a more pleasant reading experience use an editor that provides a rendering preview (e.g. [Visual Studio Code](https://code.visualstudio.com/Download) supports [markdown preview](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview)).
 
 ## Guiding Principles
 
