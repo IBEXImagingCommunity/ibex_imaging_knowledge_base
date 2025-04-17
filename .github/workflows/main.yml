@@ -22,6 +22,9 @@ on:
   # markdown generation code changes we can force execution
   workflow_dispatch:
 
+env: #update the wheel version here whenever the validation or markdown generation scripts are updated
+  KB_UTILITIES_PACKAGE: https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.8.2/ibex_imaging_knowledge_base_utilities-0.8.2-py3-none-any.whl
+
 jobs:
   preliminary_test:
     # run all pre-commit tests (see .pre-commit-config.yaml)
@@ -75,9 +78,9 @@ jobs:
       with:
         python-version: "3.10"
     - name: Install dependencies and validate data
-      run: | # validate the various data files, update the wheel version here whenever the validation scripts are updated
+      run: | # validate the various data files
         pip install --upgrade pip
-        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.8.2/ibex_imaging_knowledge_base_utilities-0.8.2-py3-none-any.whl
+        pip install $KB_UTILITIES_PACKAGE
         validate_zenodo_json .zenodo.json
         validate_bibfile data/publications.bib
         validate_basic data/protocols.csv .github/data_validation_configs/protocols.json
@@ -106,7 +109,7 @@ jobs:
         brew update
         brew install pandoc
         pip install --upgrade pip
-        pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.7.0/ibex_imaging_knowledge_base_utilities-0.7.0-py3-none-any.whl
+        pip install $KB_UTILITIES_PACKAGE
     - name: Fine tune data to markdown conversion
       id: ft
       shell: bash
