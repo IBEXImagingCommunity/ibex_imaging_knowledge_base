@@ -23,7 +23,7 @@ on:
   workflow_dispatch:
 
 env: #update the wheel version here whenever the validation or markdown generation scripts are updated
-  KB_UTILITIES_PACKAGE: https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.8.2/ibex_imaging_knowledge_base_utilities-0.8.2-py3-none-any.whl
+  KB_UTILITIES_PACKAGE: https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.9.0/ibex_imaging_knowledge_base_utilities-0.9.0-py3-none-any.whl
 
 jobs:
   preliminary_test:
@@ -89,7 +89,6 @@ jobs:
         validate_basic data/software.csv  .github/data_validation_configs/software.json
         validate_basic data/fluorescent_probes.csv .github/data_validation_configs/fluorescent_probes.json
         validate_videos data/videos.csv .github/data_validation_configs/videos.json .zenodo.json
-        validate_image_resources data/image_resources.csv .github/data_validation_configs/image_resources.json docs/supporting_material
         validate_reagent_resources data/reagent_resources.csv .github/data_validation_configs/reagent_resources.json .zenodo.json data/vendor_urls.csv docs/supporting_material
   data_2_md:
     # run the data to markdown updates only when pushing to the main branch or forced execution via workflow_dispatch
