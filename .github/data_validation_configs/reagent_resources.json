@@ -24,6 +24,11 @@
        "Disagree",
        "Contributor"
     ],
+   "data_optional_column_names":[
+      "Image Files",
+      "Captions",
+      "MD5"
+   ],
     "unique_multi_value_columns":[
        "Agree",
        "Disagree"

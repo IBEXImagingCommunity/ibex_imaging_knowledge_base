@@ -59,3 +59,6 @@ https://raw.github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/main/dat
     var tf = new TableFilter('reagent_resources_table_id', filtersConfig);
     tf.init();
 </script>
+
+<script type="text/javascript" src="assets/lightbox/lightbox.js"></script>
+<link rel="stylesheet" href="assets/lightbox/lightbox.css">
