@@ -13,7 +13,7 @@ Additional information on fluorescent probes tested by the IBEX Imaging Communit
 **Notes**:
 * Loading the filterable reagents table takes some time but is worth the wait.
 * You can readily download the underlying comma separated value file for the [reagent resources](
-https://raw.github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/main/data/reagent_resources.csv) ("Save Link As...") or download the whole knowledge-base as a [zip file]((https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/archive/refs/heads/main.zip)) and go to the `data` directory that contains all csv files.
+https://raw.github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/main/data/reagent_resources.csv) ("Save Link As...") or download the whole knowledge-base as a [zip file](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/archive/refs/heads/main.zip) and go to the `data` directory that contains all csv files.
 
 
 {reagent_resources_table}
