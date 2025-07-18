@@ -15,7 +15,7 @@ no. 6, p. e2412146122, 2025, doi:
 [10.1073/pnas.2412146122](https://doi.org/10.1073/pnas.2412146122).
 <span class="csl-block"> \[Corresponding authors: [Edward C. Schrom,
 Ronald N.
-Germain](ecschrom2@gmail.com,rgermain@niaid.nih.gov)\]</span></span>
+Germain](mailto:ecschrom2@gmail.com,rgermain@niaid.nih.gov)\]</span></span>
 
 <span class="csl-left-margin">\[2\]
 </span><span class="csl-right-inline">A. Kothurkar, G. S. Patient, N. C.
@@ -110,7 +110,7 @@ spatial human thymus cell atlas mapped to a continuous tissue axis,”
 [10.1038/s41586-024-07944-6](https://doi.org/10.1038/s41586-024-07944-6).
 <span class="csl-block"> \[Corresponding authors: [Ronald N. Germain,
 Andrea J. Radtke, John C. Marioni, Tom Taghon, Sarah A.
-Teichmann](rgermain@niaid.nih.gov,andrea.radtke@nih.gov,marioni@ebi.ac.uk,tom.taghon@ugent.be,sat1003@cam.ac.uk)\]</span></span>
+Teichmann](mailto:rgermain@niaid.nih.gov,andrea.radtke@nih.gov,marioni@ebi.ac.uk,tom.taghon@ugent.be,sat1003@cam.ac.uk)\]</span></span>
 
 <span class="csl-left-margin">\[9\]
 </span><span class="csl-right-inline">A. Shapiro, N. W. S. Caballes, R.
@@ -233,7 +233,7 @@ complex spatial organization at the cell and tissue level,” *bioRxiv*,
 [10.1101/2023.12.08.570837](https://doi.org/10.1101/2023.12.08.570837).
 <span class="csl-block"> \[Corresponding authors: [Edward C. Schrom,
 Ronald N.
-Germain](ecschrom2@gmail.com,rgermain@niaid.nih.gov)\]</span></span>
+Germain](mailto:ecschrom2@gmail.com,rgermain@niaid.nih.gov)\]</span></span>
 
 <span class="csl-left-margin">\[19\]
 </span><span class="csl-right-inline">T. Kudo, A. M. Meireles, R.

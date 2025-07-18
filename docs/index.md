@@ -25,7 +25,7 @@ layout: default
 
 # Iterative Bleaching Extends Multiplexity (IBEX) Knowledge-Base
 
-The Iterative Bleaching Extends Multiplexity (IBEX) imaging method is an iterative immunolabeling and chemical bleaching method that enables highly multiplexed imaging of diverse tissues. Development of the [IBEX method](https://doi.org/10.1038/s41596-021-00644-9) and [related software](https://github.com/niaid/imaris_extensions) was led by Dr. Andrea Radtke and Dr. Ziv Yaniv. [IBEX](https://doi.org/10.1073/pnas.2018488117) and related methods, [Ce3D](https://doi.org/10.1073/pnas.1708981114), [Ce3D-IBEX](https://doi.org/10.1111/imr.13052), [Opal-plex](https://doi.org/10.1073/pnas.2018488117), were originally developed in the laboratory of [Dr. Ronald N. Germain](https://www.niaid.nih.gov/research/ronald-n-germain-md-phd), US National Institutes of Health.
+The Iterative Bleaching Extends Multiplexity (IBEX) imaging method is an iterative immunolabeling and chemical bleaching method that enables highly multiplexed imaging of diverse tissues. Development of the [IBEX method](https://doi.org/10.1038/s41596-021-00644-9) and [related software](https://github.com/niaid/imaris_extensions) was led by Dr. Andrea Radtke and Dr. Ziv Yaniv. [IBEX](https://doi.org/10.1073/pnas.2018488117) and related methods, [Ce3D](https://doi.org/10.1073/pnas.1708981114), [Ce3D-IBEX](https://doi.org/10.1111/imr.13052), [Opal-plex](https://doi.org/10.1073/pnas.2018488117), were originally developed in the laboratory of [Dr. Ronald N. Germain](https://irp.nih.gov/pi/ronald-germain), US National Institutes of Health.
 
 ## Code of conduct
 
