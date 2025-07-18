@@ -40,6 +40,13 @@ IBEX has been performed hundreds of times by dozens of junior and senior investi
 *“Perform these steps in a chemical hood with appropriate PPE. Always work with small amounts (<10 mg) of LiBH4. Replace vial of LiBH4 after 4 weeks of prolonged use as we have observed reduced bleaching efficiency after repeated exposure to air. We recommend purchasing the smallest aliquot (1 g) available. Alternative borohydride solutions may also be considered and empirically tested for their compatibility with the fluorophores and panels described here.”*   
 **Please make sure to train all members of your lab in the safe handling of all reagents used for IBEX.**
 
+1. **How do I safely dispose of solid and liquid waste?**.  
+*Solid waste*:  
+***Do not throw solid waste or any item with residual LiBH4 into the trash!*** For instance, a Kimwipe used to wipe a spatula that weighed powder should not be discarded in the trash. The residual powder might react if something wet is placed in the same trash bin.  
+Arrange for pick up of unused LiBH4 powder with your institute's waste disposal team. Order small aliquots (<1 gram) to minimize the amount of chemical present in the lab at any one time. Use plastic weigh boats and rinse thoroughly with water before throwing in general waste. This ensures that any traces of LiBH4 are removed. The serological pipette can also be disposed in general waste. To be extra careful, you can rinse the pipette with water before discarding it. Rinse spatulas used to weigh out the powder thoroughly with water before disposing of plastic spatulas or placing metal spatulas back in the drawer.  
+*Liquid waste*:  
+Discuss with your local safety team. Keep the solution in sealed falcon tubes. Once it is in solution, it is no longer reactive. Safety team might advise you to collect all liquid waste in a glass container and then arrange pick up.
+
 1. **What imaging substrates are compatible with IBEX?**  
 The IBEX2D Manual method was originally described using a two-well chambered coverglass and an inverted microscope. This configuration allowed samples to be iteratively imaged without adding and removing a coverslip after each cycle, preventing tissue loss while simplifying execution of the protocol. The IBEX2D Manual method has also been demonstrated using a glass slide and upright and inverted microscopes [[Figure S3A, Radtke et al. 2020](https://doi.org/10.1073/pnas.2018488117)]. The IBEX2D Automated method employs tissues sectioned onto glass coverslips and imaged using an inverted microscope [[Radtke et al. 2022](https://doi.org/10.1038/s41596-021-00644-9)].
 
