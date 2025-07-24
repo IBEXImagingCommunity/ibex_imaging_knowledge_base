@@ -57,6 +57,7 @@ Join the following people who have made contributions to the knowledge-base:
 1. Veres, Tibor Z., National Institutes of Health, [0000-0002-6980-8900](https://orcid.org/0000-0002-6980-8900).
 1. Vierhout, Megan, McMaster University, [0000-0001-5813-2581](https://orcid.org/0000-0001-5813-2581).
 1. Wachter, Brianna, National Institutes of Health, [0000-0002-2950-2683](https://orcid.org/0000-0002-2950-2683).
+1. Wade-Vallance, Adam K., National Institutes of Health, [0000-0002-6863-1461](https://orcid.org/0000-0002-6863-1461).
 1. Williams, Margaret, National Institutes of Health, [0000-0003-3697-5726](https://orcid.org/0000-0003-3697-5726).
 1. Zangger, Nathan, ETH Zurich, [0000-0003-1130-1899](https://orcid.org/0000-0003-1130-1899).
 1. Germain, Ronald N., National Institutes of Health, [0000-0003-1495-9143](https://orcid.org/0000-0003-1495-9143).

@@ -30,11 +30,15 @@ Results are reported for the original IBEX2D Manual method that uses 1 mg/ml of 
 | PerCP-Vio 700                    | 482                   | 704                 | Not tested                                                    |
 | Green Fluorescent Protein (GFP)  | 488                   | 510                 | Does not bleach                                               |
 | iF488                            | 488                   | 530                 | 1 mg/ml LiBH4 15 minutes                                      |
+| RealBlue 780 (RB780)             | 488                   | 780                 | Not tested                                                    |
 | AF488                            | 490                   | 525                 | 1 mg/ml LiBH4 15 minutes                                      |
 | AF488 (Plus)                     | 490                   | 525                 | 1 mg/ml LiBH4 15 minutes                                      |
 | FITC                             | 490                   | 525                 | 1 mg/ml LiBH4 30 minutes                                      |
 | CL490                            | 491                   | 515                 | 1 mg/ml LiBH4 15 minutes                                      |
+| RealBlue 613 (RB613)             | 492                   | 613                 | 1 mg/ml LiBH4 15 minutes                                      |
+| RealBlue 670 (RB670)             | 492                   | 670                 | 1 mg/ml LiBH4 30 minutes                                      |
 | CoraLite Plus 488                | 493                   | 522                 | 1 mg/ml LiBH4 15 minutes                                      |
+| RealBlue 705 (RB705)             | 498                   | 707                 | 1 mg/ml LiBH4 30 minutes                                      |
 | Spark Blue 574                   | 506                   | 574                 | 1 mg/ml LiBH4 15 minutes                                      |
 | iF514                            | 511                   | 527                 | Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment  |
 | Yellow Fluorescent Protein (YFP) | 513                   | 527                 | Does not bleach                                               |
@@ -49,8 +53,12 @@ Results are reported for the original IBEX2D Manual method that uses 1 mg/ml of 
 | eF570                            | 556                   | 569                 | 1 mg/ml LiBH4 15 minutes                                      |
 | AF546                            | 556                   | 573                 | Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment  |
 | iF555                            | 557                   | 570                 | 1 mg/ml LiBH4 15 minutes                                      |
+| RealYellow 610 (RY610)           | 557                   | 610                 | 1 mg/ml LiBH4 15 minutes                                      |
+| RealYellow 704 (RY703)           | 557                   | 703                 | 1 mg/ml LiBH4 15 minutes                                      |
+| RealYellow 743 (RY743)           | 557                   | 743                 | 1 mg/ml LiBH4 15 minutes                                      |
+| RealYellow 775 (RY775)           | 557                   | 775                 | 1 mg/ml LiBH4 15 minutes                                      |
 | PE                               | 565                   | 578                 | 1 mg/ml LiBH4 15 minutes                                      |
-| RY586                            | 565                   | 586                 | Not tested                                                    |
+| RY586                            | 565                   | 586                 | 1 mg/ml LiBH4 15 minutes                                      |
 | PE/iF594                         | 565                   | 606                 | 1 mg/ml LiBH4 15 minutes                                      |
 | PE/Dazzle AF594                  | 565                   | 610                 | Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment  |
 | PE-Vio 615                       | 565                   | 619                 | Does not bleach within 15 minutes of 1 mg/ml LiBH4 treatment  |
