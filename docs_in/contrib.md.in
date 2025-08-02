@@ -13,6 +13,7 @@ layout: default
 * By contributing to the knowledge-base you are agreeing that the provided data be made available under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/) and that you will abide by the [code of conduct](code_of_conduct.md) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.html).
 * The recommended path for contributing is described below and utilizes GitHub. If you feel uncomfortable using git or GitHub, we will help you contribute your knowledge without dealing with these tools. Download the knowledge-base as a [zip file](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/archive/refs/heads/main.zip), read the instructions below, skipping the git and GitHub related steps. [Contact us](mailto:zivyaniv@nih.gov,andrea.radtke@leica-microsystems.com) so that we can discuss your contribution and help you complete the submission together.  
 Before going down this route, we highly recommend reading the following publications [Pereira Braga et al. 2023](https://doi.org/10.1111/2041-210X.14108) and [Chen et al. 2025](https://doi.org/10.1371/journal.pbio.3003029). They may just convince you to learn how to use GitHub, as they show it is a useful tool for general laboratory research and that it has the potential to accelerate research while improving reproducibility.
+* If you are comfortable with Python, code for validating the contributions, converting data files to markdown and easily creating supporting material is available [here](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities).
 
 To contribute your knowledge you need the following:
 1. Open Researcher and Contributor ID ([ORCID](https://en.wikipedia.org/wiki/ORCID)), your unique scientific identifier. If you do not have an ORCID, register for it [here](https://orcid.org/register).
@@ -34,8 +35,14 @@ This knowledge-base follows the standard GitHub
 ### Before starting
 Create a new local git branch based off the `main` branch ([GitHub Desktop instructions](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches#creating-a-branch)).
 
+
+| Overview of detailed instructions and workflow described below. (A) Contributing data to the IBEX KB. Files that need to be modified are highlighted in blue with data file name bolded. (B) Flow chart demonstrating how to add a reagent contribution. Files that need to be modified are highlighted in green with data file name bolded. |
+|:-------|
+| <img src="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/docs/contributing.jpg"> |
+
+
 ### Modifying the *publications.bib* file:
-Simply add an entry to the file using the appropriate [bibtex entry type](https://www.bibtex.com/e/entry-types/).
+Add an entry to the file using the appropriate [bibtex entry type](https://www.bibtex.com/e/entry-types/).
 
 To give credit where credit is due, we ask that you provide the complete list of authors and do not truncate it, even if it is long.
 
@@ -62,14 +69,18 @@ When reporting information that has not appeared in a peer-reviewed publication,
 
 #### Adding new line:
 1. Add a line to the [reagent_resources.csv](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/blob/main/data/reagent_resources.csv).
-2. Create corresponding supporting material sub-directory using the target_conjugate as the directory name and add a markdown file with your ORCID as the file prefix (see existing files for reference). Supporting material file has a fixed layout, see [supporting_template.md](supporting_template.md).  
+2. Create corresponding supporting material sub-directory using the target_conjugate as the directory name and add a markdown file with your ORCID as the file prefix (see existing files for reference). Supporting material file has a fixed layout, see [supporting_template.md.in](supporting_template.md.in).  
 **Note**: When creating the target_conjugate sub-directory you will need to replace the following characters with an underscore: space, tab, "/", "\", "{", "}", "[", "]", "(", ")", "<", ">", ":", "&". Consequently, supporting material for the target conjugate pair of "Chicken IgY (H&L)", "FITC" is found in a directory named "Chicken_IgY__H_L__FITC".
-3. Optionally add *small* (<300KB) image files (jpg) and refer to them in the supporting material file. Please format your images as 72dpi, 24bit color, 1200x1200px. Write caption identifying validated reagent. Use colorblind safe colors (e.g. cyan, red; magenta, green, blue; no green and red). Include scale bar. Use zoom that allows fine details to be seen. See an example [here](./supporting_material/CD21_PE/0000-0003-4379-8967.md). Add the information to the `reagent_resources.csv` file under the columns titled "Image Files", "Captions" ,and "MD5". If there is more than one file associated with the row, separate the file names, captions and MD5 hashes using a semicolon (e.g. `CD23_AF532/Human_LN_CD23_CD106.jpg;CD23_AF532/CD23_LN_BioLegend_338502_Custom_Ki67_BDBiosciences_561277.jpg`). Note that these images are similar to those you would use in a manuscript and are not a substitute for publicly sharing the original images and metadata on domain specific or generalist data archives (for examples, see [data and software](data_and_software.md) section).    
+3. Optionally add *small* (<300KB) image files (jpg) and refer to them in the supporting material file. Please format your images as 72dpi, 24bit color, 1200x1200px. Write caption identifying validated reagent. Use colorblind safe colors (e.g. cyan, red; magenta, green, blue; no green and red). Include scale bar. Use zoom that allows fine details to be seen. See an example [here](./supporting_material/CD21_PE/0000-0003-4379-8967.md). Add the information to the `reagent_resources.csv` file under the columns titled "Image Files", "Captions" ,and "MD5". If there is more than one file associated with the row, separate the file names, captions and [MD5 hashes](https://en.wikipedia.org/wiki/MD5) using a semicolon (e.g. `CD23_AF532/Human_LN_CD23_CD106.jpg;CD23_AF532/CD23_LN_BioLegend_338502_Custom_Ki67_BDBiosciences_561277.jpg`). Note that these images are similar to those you would use in a manuscript and are not a substitute for publicly sharing the original images and metadata on domain specific or generalist data archives (for examples, see [data and software](data_and_software.md) section).   
 For general information about image quality and content for use in supporting scientific claims see:   
    * "Community-developed checklists for publishing images and image analyses", C. Schmied et al., Nat. Methods, 2024, doi: [10.1038/s41592-023-01987-9](https://doi.org/10.1038/s41592-023-01987-9).
    * [Figure Making Best Practices video](https://www.youtube.com/watch?v=CgfnlcxbjuI), 2024, on the [BioImaging North America (BINA) YouTube channel](https://www.youtube.com/@BioImagingNorthAmerica).
-   * "Creating clear and informative image-based figures for scientific publications", H. Jambor et al., PLOS Biology, 2021, doi: [10.1371/journal.pbio.3001161](https://doi.org/10.1371/journal.pbio.3001161)
+   * "Creating clear and informative image-based figures for scientific publications", H. Jambor et al., PLOS Biology, 2021, doi: [10.1371/journal.pbio.3001161](https://doi.org/10.1371/journal.pbio.3001161).
 
+   Computing MD5 hash for file named `file_name`. Open command line (depending on operating system this is called command prompt, powershell, or terminal) and type:
+     * Windows: `CertUtil -hashfile file_name MD5`
+     * Mac: `md5 file_name`
+     * Unix: `md5sum file_name`
 
 #### Adding information to existing line:
 ---
