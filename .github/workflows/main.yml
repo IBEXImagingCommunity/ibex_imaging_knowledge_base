@@ -30,7 +30,7 @@ jobs:
     # run all pre-commit tests (see .pre-commit-config.yaml)
     runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
       with:
         fetch-depth: 0
     - name: Set up Python 3.10
@@ -48,7 +48,7 @@ jobs:
     if: github.event_name == 'pull_request'
     runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - uses: dorny/paths-filter@v3
       id: filter
       with:
@@ -72,7 +72,7 @@ jobs:
     needs: preliminary_test
     runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: Set up Python 3.10
       uses: actions/setup-python@v5
       with:
@@ -96,7 +96,7 @@ jobs:
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'}}
     runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
       with:
         fetch-depth: 0
     - name: Set up Python 3.10
