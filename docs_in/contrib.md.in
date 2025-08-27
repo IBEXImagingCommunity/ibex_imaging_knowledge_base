@@ -11,7 +11,7 @@ layout: default
 
 &#x26A0; **NOTES**
 * By contributing to the knowledge-base you are agreeing that the provided data be made available under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/) and that you will abide by the [code of conduct](code_of_conduct.md) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.html).
-* The recommended path for contributing is described below and utilizes GitHub. If you feel uncomfortable using git or GitHub, we will help you contribute your knowledge without dealing with these tools. Download the knowledge-base as a [zip file](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/archive/refs/heads/main.zip), read the instructions below, skipping the git and GitHub related steps. [Contact us](mailto:zivyaniv@nih.gov,andrea.radtke@leica-microsystems.com) so that we can discuss your contribution and help you complete the submission together.  
+* The recommended path for contributing is described below and utilizes the git version control system and the GitHub repository hosting service. If you feel uncomfortable using either of these tools, we will help you contribute your knowledge without dealing with them. Download the knowledge-base as a [zip file](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/archive/refs/heads/main.zip), read the instructions below, skipping the git and GitHub related steps. [Contact us](mailto:zivyaniv@nih.gov,andrea.radtke@leica-microsystems.com) so that we can discuss your contribution and help you complete the submission together.  
 Before going down this route, we highly recommend reading the following publications [Pereira Braga et al. 2023](https://doi.org/10.1111/2041-210X.14108) and [Chen et al. 2025](https://doi.org/10.1371/journal.pbio.3003029). They may just convince you to learn how to use GitHub, as they show it is a useful tool for general laboratory research and that it has the potential to accelerate research while improving reproducibility.
 * If you are comfortable with Python, code for validating the contributions, converting data files to markdown and easily creating supporting material is available [here](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities).
 
@@ -27,7 +27,7 @@ This knowledge-base follows the standard GitHub
 ## One time setup
 1. If you are comfortable working with git and GitHub from the command-line, install [git](https://git-scm.com/downloads). Otherwise, download the [GitHub Desktop](https://desktop.github.com/) application and [read the installation and configuration help](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop).
 1. Fork the [IBEX Imaging Community repository](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base) and clone it to a local directory ([GitHub Desktop instructions](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop)).
-1. If you are adding reagent information (including reproducing results of existing configurations), contributing a protocol or sharing a new video tutorial, add your information to the "creators" section in the .zenodo.json file (This is a hidden file. To see it on windows, open file-explorer and select View->Show->Hidden items).
+1. If you are adding reagent information (including reproducing results of existing configurations), contributing a protocol or sharing a new video tutorial, add your information to the "creators" section in the .zenodo.json file (This is a hidden file. To see it on windows, open file-explorer and select View->Show->Hidden items).  
 **Note**: Additions should maintain alphabetical order based on last name and be inserted between the first and last two entries (these three entries remain in their fixed locations in the list).
 
 ## Adding information to the knowledge-base
@@ -63,7 +63,7 @@ Add your video details to this csv file, title, URL which links to the video, th
 
 Do not use non-ASCII characters such as &trade; or &alpha; (either remove or represent using standard ASCII "alpha"). For explanation of the column contents see the [reagent metadata section](#reagent-metadata).
 
-When reporting information that has not appeared in a peer-reviewed publication, both negative and positive results, include more details with respect to experimental conditions and provide sample images as part of the supporting material files. In all cases, peer reviewed or not, we **encourage providing additional details in the supporting material** that you deem important and are not part of the csv file structure. These include but are not limited to lot numbers, versioned protocols used in the work and any other information which will facilitate validation reproducibility.
+When reporting information that has not appeared in a peer-reviewed publication, both negative and positive results, include more details with respect to experimental conditions and provide sample images as part of the supporting material files. In all cases, peer reviewed or not, we **encourage providing additional details in the supporting material** that you deem important and are not part of the csv file structure. These include, but are not limited to, lot numbers, versioned protocols used in the work, and any other information which will facilitate validation reproducibility.
 
 **Note**: If using excel or google docs to edit the file, you need to be careful if your preferences include automatic data conversion, as this may change the file content incorrectly. In our case, a conjugate such as 9E10 will be converted to a number, 90000000000. In excel, disable the "Automatic Data Conversion" before opening the file. In google docs open an empty spreadsheet and then **import** the csv file. During the import processes you will first select the delimiter, comma in our case. You will then need to specify the column type as "text" for all columns.
 
@@ -87,13 +87,17 @@ For general information about image quality and content for use in supporting sc
 
 We only accept up to 5 ORCID additions in the `Agree` or `Disagree` columns. This means that, the original contributor's work was replicated by up to 4 people from other laboratories or refuted by up to 5 people from other laboratories.
 
+When overturning previously reported results, the number of ORCIDs in the `Disagree` column becomes greater than those in the `Agree` column, we will open the contribution for public discussion on the [Knowledge-Base forum](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/discussions) before accepting it.   
+The intent is to increase the community's confidence in the results, particularly when dealing with non-routine antibodies. This allows the original contributor and other members of the community to engage with the researchers who were unable to replicate a specific validation, possibly helping them to replicate the original results by adding missing details to the KB, or explicitly identifying and documenting issues with the original work.
+
+
 ---
 
 1. Add your ORCID to the `Agree` or `Disagree` column on the appropriate line in the reagent_resources.csv file. Use a semicolon `;` to separate from the previous ones (e.g. `ORCID1; ORCID2; ORCID3`).
 2. If after adding your vote:
   * The number of ORCIDs in the `Disagree` column is greater than those in the `Agree` column:
     1. Change the content of the `Recommend` column from "Yes" to "No" or the other way round and swap the ORCIDs between the `Agree` and `Disagree` columns.
-    2. Modify all the supporting material markdown files associated with this row, changing the `ResultXXX` and `RecommendationXXX` sections.
+    2. Modify all the supporting material markdown files associated with this row, changing the `Configuration` section to match the modified content in the csv file.
 3. Add a markdown file with your ORCID to the existing sub-directory. The easiest option is to copy the contents of one of the markdown files already in this directory and modify it.
 4. Optionally add **small** image files (jpg) and refer to them in the supporting material file. Please format your images as 72dpi, 24bit color, 1200x1200px. Write caption identifying validated reagent with orthogonal marker (see below). Use colorblind safe colors (Cyan, red; magenta, green, blue; no green and red). Include scale bar. Use zoom that allows fine details to be seen.
 
