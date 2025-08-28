@@ -25,6 +25,9 @@ layout: default
 
 # Iterative Bleaching Extends Multiplexity (IBEX) Knowledge-Base
 
+In addition to the functionality directly provided on this website we encourage you to use it as context for your AI agent of choice. That is, provide the website URL as context to the AI agent and start a conversation (using URLs for context is not supported by some free chatbot versions). Ask questions about the information available on the site and ask the agent to perform related tasks. A sample interaction, from August 2025, [is documented here](github_copilot_claude_sonnet4_chat_history_august_2025.md).
+
+
 The Iterative Bleaching Extends Multiplexity (IBEX) imaging method is an iterative immunolabeling and chemical bleaching method that enables highly multiplexed imaging of diverse tissues. Development of the [IBEX method](https://doi.org/10.1038/s41596-021-00644-9) and [related software](https://github.com/niaid/imaris_extensions) was led by Dr. Andrea Radtke and Dr. Ziv Yaniv. [IBEX](https://doi.org/10.1073/pnas.2018488117) and related methods, [Ce3D](https://doi.org/10.1073/pnas.1708981114), [Ce3D-IBEX](https://doi.org/10.1111/imr.13052), [Opal-plex](https://doi.org/10.1073/pnas.2018488117), were originally developed in the laboratory of [Dr. Ronald N. Germain](https://irp.nih.gov/pi/ronald-germain), US National Institutes of Health.
 
 ## Code of conduct
