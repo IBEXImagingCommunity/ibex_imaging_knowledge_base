@@ -85,7 +85,7 @@ For general information about image quality and content for use in supporting sc
 #### Adding information to existing line:
 ---
 
-We only accept up to 5 ORCID additions in the `Agree` or `Disagree` columns. This means that, the original contributor's work was replicated by up to 4 people from other laboratories or refuted by up to 5 people from other laboratories.
+We only accept up to 5 ORCID additions in the `Agree` or `Disagree` columns. This means that the original contributor's work was replicated by up to 4 individuals or refuted by up to 5 people. Priority is given to contributions from individuals in laboratories distinct from the original source.
 
 When overturning previously reported results, the number of ORCIDs in the `Disagree` column becomes greater than those in the `Agree` column, we will open the contribution for public discussion on the [Knowledge-Base forum](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/discussions) before accepting it.   
 The intent is to increase the community's confidence in the results, particularly when dealing with non-routine antibodies. This allows the original contributor and other members of the community to engage with the researchers who were unable to replicate a specific validation, possibly helping them to replicate the original results by adding missing details to the KB, or explicitly identifying and documenting issues with the original work.
