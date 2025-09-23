@@ -25,19 +25,43 @@ layout: default
 
 # Iterative Bleaching Extends Multiplexity (IBEX) Knowledge-Base
 
+The IBEX Knowledge Base is a global, community-driven resource designed to support researchers working with IBEX and related multiplexed imaging methods. Built on principles of open science, reproducibility, and shared ownership, it offers practical tools and expert insights to help scientists overcome the challenges of multiplexed antibody-based imaging.
+
+## What You’ll Find
+
+This evolving platform includes:
+* [Discussion forum](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/discussions) for sharing experiences and refining best practices
+* [Reagent resources](reagent_resources.md) for finding recommended and not recommended antibodies, conjugation kits, and more
+* [Fluorescent probes](fluorescent_probes.md) tested by the community
+* [Protocols](protocols.md) covering hardware setup, sample prep, imaging parameters, and computational analysis
+* [Videos](videos.md) featuring general talks on multiplexed imaging and focused tutorials
+* [Data and Software](data_and_software.md) for accessing publicly available datasets hosted on external repositories and tools developed for multiplexed imaging analysis
+* [Publications](publications.md) for exploring peer-reviewed articles and preprints showcasing IBEX applications and technical developments
+* [Questions and Answers](q_and_a.md) for addressing aspects of the Knowledge Base, IBEX methods, and software not fully clarified in publications
+
+## How to Use It
+
+Start exploring at the IBEX Imaging Community website. Use the “Reagent Resources” tab to filter antibodies by species, tissue type, and antigen retrieval conditions. For deeper engagement, visit the GitHub repository to access source data, contribute updates, or join the conversation.
+
 In addition to the functionality directly provided on this website we encourage you to use it as context for your AI agent of choice. That is, provide the website URL as context to the AI agent and start a conversation (using URLs for context is not supported by some free chatbot versions). Ask questions about the information available on the site and ask the agent to perform related tasks. A sample interaction, from August 2025, [is documented here](github_copilot_claude_sonnet4_chat_history_august_2025.md).
 
+## Download
 
-The Iterative Bleaching Extends Multiplexity (IBEX) imaging method is an iterative immunolabeling and chemical bleaching method that enables highly multiplexed imaging of diverse tissues. Development of the [IBEX method](https://doi.org/10.1038/s41596-021-00644-9) and [related software](https://github.com/niaid/imaris_extensions) was led by Dr. Andrea Radtke and Dr. Ziv Yaniv. [IBEX](https://doi.org/10.1073/pnas.2018488117) and related methods, [Ce3D](https://doi.org/10.1073/pnas.1708981114), [Ce3D-IBEX](https://doi.org/10.1111/imr.13052), [Opal-plex](https://doi.org/10.1073/pnas.2018488117), were originally developed in the laboratory of [Dr. Ronald N. Germain](https://irp.nih.gov/pi/ronald-germain), US National Institutes of Health.
+There are two easy ways to download the knowledge-base contents to your local computer:
+1. Authoritative and versioned forms of the knowledge-base are available for download from the [knowledge-base dataset archive](https://doi.org/10.5281/zenodo.7693278) on Zenodo.
+1. The latest, non-authoritative version, which is what you are currently reading, is available for download from GitHub as a [zip file](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/archive/refs/heads/main.zip).
 
-## Code of conduct
+Once you have a local copy of the knowledge-base the primary directories of interest are `data` and `docs\supporting_material`. The key elements of interest are the comma separated value (csv) files found in the `data` directory and the image and detailed guidance files found in the  `supporting_material` sub-directories.
 
-All members of the IBEX Imaging Community are expected to abide by the [code of conduct](code_of_conduct.md) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.html).
+Note that the supporting material raw [markdown](https://en.wikipedia.org/wiki/Markdown) (md) files can be read by any text editor. For a more pleasant reading experience use an editor that provides a rendering preview (e.g. [Visual Studio Code](https://code.visualstudio.com/Download) supports [markdown preview](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview)).
 
-## Overview
-The IBEX Imaging Community is an international group of scientists committed to sharing knowledge related to multiplexed imaging in a transparent and collaborative manner. This open, global repository is a central resource for reagents, protocols, panels, publications, software, and datasets. In addition to IBEX, we support standard, single cycle multiplexed imaging (Multiplexed 2D imaging), volume imaging of cleared tissues with clearing enhanced 3D (Ce3D), highly multiplexed 3D imaging (Ce3D-IBEX), and extension of the IBEX dye inactivation protocol to the Leica Cell DIVE (Cell DIVE-IBEX).
+## Licensing
 
-## Citation
+All of the data (images, text etc.) is made available under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).   
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) 
+
+
+## How to Cite it
 
 When referring to the IBEX knowledge-base in general, please cite either of the following manuscripts and the Zenodo concept level Digital Object Identifier (DOI), [10.5281/zenodo.7693278](https://doi.org/10.5281/zenodo.7693278):
 
@@ -52,21 +76,10 @@ Open science is obviously something you support and practice. Don't forget to hi
 
 The current knowledge-base usage statistics are available on its [Zenodo page](https://doi.org/10.5281/zenodo.7693278).
 
-## Licensing
+## Built by the Community, for the Community
 
-All of the data (images, text etc.) is made available under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).   
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) 
+Every contributor is recognized with authorship on Zenodo releases, and both successes and failures are documented to accelerate learning. The Knowledge Base supports over 50 unique tissue combinations and continues to grow through global collaboration. Whether you're new to IBEX or refining advanced workflows, this resource is here to help and welcomes your contributions. We operate by 5 guiding principles and a code of conduct.
 
-
-## Download
-
-There are two easy ways to download the knowledge-base contents to your local computer:
-1. Authoritative and versioned forms of the knowledge-base are available for download from the [knowledge-base dataset archive](https://doi.org/10.5281/zenodo.7693278) on Zenodo.
-1. The latest, non-authoritative version, which is what you are currently reading, is available for download from GitHub as a [zip file](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/archive/refs/heads/main.zip).
-
-Once you have a local copy of the knowledge-base the primary directories of interest are `data` and `docs\supporting_material`. The key elements of interest are the comma separated value (csv) files found in the `data` directory and the image and detailed guidance files found in the  `supporting_material` sub-directories.
-
-Note that the supporting material raw [markdown](https://en.wikipedia.org/wiki/Markdown) (md) files can be read by any text editor. For a more pleasant reading experience use an editor that provides a rendering preview (e.g. [Visual Studio Code](https://code.visualstudio.com/Download) supports [markdown preview](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview)).
 
 ## Guiding Principles
 
@@ -89,6 +102,10 @@ This repository contains the *current state of knowledge* with respect to the IB
 1. Asking a question on the [discussion forum](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/discussions).
 1. Adding a publication related to a deposited reagent, dataset, protocol, software or hardware to the list of [publications](https://IBEXImagingCommunity.github.io/ibex_imaging_knowledge_base/publications.html).
 1. Confirming previous results or contributing new ones (see [how to contribute](contrib.md)).
+
+## Code of conduct
+
+All members of the IBEX Imaging Community are expected to abide by the [code of conduct](code_of_conduct.md) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.html).
 
 # Funding provided by
 
