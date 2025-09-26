@@ -132,4 +132,4 @@ Click the images above to download.
 
 ---
 
-Banner created by Autumn Yarmosh and David M. Sullivan. Why the goats? Read the [Behind the Paper Blog Post](https://protocolsmethods.springernature.com/posts/ascending-high-plex-mountains-with-ibex-an-open-and-versatile-method-for-multiplexed-antibody-based-imaging).
+Banner created by Autumn Yarmosh and David M. Sullivan. Why the goats? Read the [Behind the Paper Blog Post](https://communities.springernature.com/posts/ascending-high-plex-mountains-with-ibex-an-open-and-versatile-method-for-multiplexed-antibody-based-imaging).
