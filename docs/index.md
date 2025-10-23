@@ -9,10 +9,10 @@ layout: default
 <table style="margin-left: auto;margin-right: auto; border: 2px solid purple; border-radius: 20px;">
     <tbody>
         <tr>
-            <td style="text-align:center;"><p style="font-family:verdana;font-size:xx-large">34</p></td>
-            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">1295</p></td>
+            <td style="text-align:center;"><p style="font-family:verdana;font-size:xx-large">35</p></td>
+            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">1298</p></td>
             <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">76</p></td>
-            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">59</p></td>
+            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">60</p></td>
         </tr>
         <tr>
             <td style="text-align:center;vertical-align: middle"><p style="font-family:verdana;font-size:x-large">Contributors</p></td>
