@@ -26,6 +26,7 @@ Join the following people who have made contributions to the knowledge-base:
 1. Denha, Saven, McMaster University, [0009-0004-8162-409X](https://orcid.org/0009-0004-8162-409X).
 1. Dever, Rose, National Institutes of Health, [0009-0004-2746-8743](https://orcid.org/0009-0004-2746-8743).
 1. Dutra, Walderez, Universidade Federal de Minas Gerais, [0000-0002-7586-9996](https://orcid.org/0000-0002-7586-9996).
+1. Dzieniak, Zuzanna, University College London, [0009-0003-0776-2163](https://orcid.org/0009-0003-0776-2163).
 1. Fritzsche, Sonja, Max Delbrück Center for Molecular Medicine, [0000-0003-3335-3534](https://orcid.org/0000-0003-3335-3534).
 1. Fullam, Spencer, Rush University, [0000-0001-9012-3802](https://orcid.org/0000-0001-9012-3802).
 1. Gerner, Michael, University of Washington, [0000-0001-5406-8308](https://orcid.org/0000-0001-5406-8308).
@@ -40,6 +41,7 @@ Join the following people who have made contributions to the knowledge-base:
 1. Kortekaas, Rosa K., McMaster University, [0000-0002-8728-1735](https://orcid.org/0000-0002-8728-1735).
 1. Kothurkar, Aanandita, University College London, [0009-0000-2047-4228](https://orcid.org/0009-0000-2047-4228).
 1. Krzywańska, Aleksandra, University College London, [0009-0006-4918-5749](https://orcid.org/0009-0006-4918-5749).
+1. Kubiak, Jakub, University College London, [0009-0004-2219-8641](https://orcid.org/0009-0004-2219-8641).
 1. Lamborn, Ian, National Institutes of Health, [0009-0006-1490-3667](https://orcid.org/0009-0006-1490-3667).
 1. Lin, Yuri, National Institutes of Health, [0009-0006-9784-2694](https://orcid.org/0009-0006-9784-2694).
 1. Luz, Jean Carlos Dos Santos, University of São Paulo, [0000-0001-5088-7808](https://orcid.org/0000-0001-5088-7808).
