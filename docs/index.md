@@ -8,7 +8,7 @@ layout: default
 
 <style>
   .kb-stats {
-    width: min(100%, 900px);
+    width: 100%;
     margin: 1rem auto;
     border: 2px solid purple;
     border-radius: 20px;
