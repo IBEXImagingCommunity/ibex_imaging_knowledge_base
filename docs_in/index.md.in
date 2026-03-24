@@ -107,7 +107,7 @@ All of the data (images, text etc.) is made available under a [Creative Commons 
 
 When referring to the IBEX knowledge-base in general, please cite either of the following manuscripts and the Zenodo concept level Digital Object Identifier (DOI), [10.5281/zenodo.7693278](https://doi.org/10.5281/zenodo.7693278):
 
-* "The IBEX Imaging Knowledge-Base: A Community Resource Enabling Adoption and Development of Immunofluoresence Imaging Methods", doi: [10.7554/eLife.105737.1](https://doi.org/10.7554/eLife.105737.1).
+* "The IBEX Imaging Knowledge-Base: A Community Resource Enabling Adoption and Development of Immunofluoresence Imaging Methods", doi: [10.7554/eLife.105737.3](https://doi.org/10.7554/eLife.105737.3).
 * "The IBEX Knowledge-Base: A central resource for multiplexed imaging techniques", doi: [10.1371/journal.pbio.3003070](https://doi.org/10.1371/journal.pbio.3003070).
 
 To enable others to reproduce your work, please cite the specific knowledge-base version level DOI used in your work. For example, [10.5281/zenodo.13122300](https://doi.org/10.5281/zenodo.13122300) refers to the knowledge-base version v0.2.0 and [10.5281/zenodo.14645972](https://doi.org/10.5281/zenodo.14645972) refers to version v0.3.0.
