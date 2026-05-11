@@ -1,14 +1,16 @@
+---
+---
 {
-    "name": "",
-    "short_name": "",
+    "name": "IBEX Imaging Community",
+    "short_name": "IBEX",
     "icons": [
         {
-            "src": "/assets/image/android-chrome-192x192.png",
+            "src": "{{ site.baseurl }}/assets/image/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/assets/image/android-chrome-512x512.png",
+            "src": "{{ site.baseurl }}/assets/image/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
