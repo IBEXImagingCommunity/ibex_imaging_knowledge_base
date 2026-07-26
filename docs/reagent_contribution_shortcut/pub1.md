@@ -1,0 +1,1 @@
+A. J. Radtke et al., "Multi-omic profiling of follicular lymphoma reveals changes in tissue architecture and enhanced stromal remodeling in high-risk patients", Cancer Cell, 42(3):444-463, 2024, [doi: 10.1016/j.ccell.2024.02.001](https://doi.org/10.1016/j.ccell.2024.02.001).
