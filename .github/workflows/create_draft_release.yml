@@ -23,7 +23,7 @@ jobs:
         shell: bash
         run: |
           pip install --upgrade pip
-          pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v0.9.8/ibex_imaging_knowledge_base_utilities-0.9.8-py3-none-any.whl
+          pip install https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v1.2.0/ibex_imaging_knowledge_base_utilities-1.2.0-py3-none-any.whl
           PREVIOUS_TAG=$(git describe --tags --abbrev=0 ${{ github.ref_name }}^ 2>/dev/null || echo "")
           if [ -z "$PREVIOUS_TAG" ]; then
             echo "We are proud to announce the first release of the IBEX Imaging Community knowledge-base!" > "$RELEASE_NOTES_FILE"
