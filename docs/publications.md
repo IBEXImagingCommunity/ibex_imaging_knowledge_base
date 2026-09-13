@@ -79,6 +79,15 @@ microscopy to minimize non-specific tissue fluorescence,” *JoVE*, no.
 Koenig](mailto:koenigjf@mcmaster.ca)\]</span></span>
 
 <span class="csl-left-margin">\[7\]
+</span><span class="csl-right-inline">A. Lunich, A. J. Radtke, M.
+Williams, J. M. Stern, D. L. Barber, R. N. Germain, and I. U. Anidi,
+“Optimized workflow for iterative bleaching extends multiplexity imaging
+of highly autofluorescent clinical samples,” *JoVE*, no. 221, p. e67980,
+2025, doi: [doi:10.3791/67980](https://doi.org/doi:10.3791/67980).
+<span class="csl-block"> \[Corresponding authors: [Ifeanyichukwu U.
+Anidi](mailto:Ifeanyi.anidi@gmail.com)\]</span></span>
+
+<span class="csl-left-margin">\[8\]
 </span><span class="csl-right-inline">A. J. Radtke, I. U. Anidi, L.
 Arakkal, A. J. Arroyo-Mejias, R. T. Beuschel, K. Börner, C. J. Chu, B.
 Clark, M. R. Clatworthy, J. Colautti, F. Coscia, J. Croteau, S. Denha,
@@ -99,7 +108,17 @@ techniques</span>,” *PLOS Biology*, no. 3, 2025, doi:
 Ronald N. Germain, Ziv
 Yaniv](mailto:radtke@leica-microsystems.com,rgermain@niaid.nih.gov,zivyaniv@nih.gov)\]</span></span>
 
-<span class="csl-left-margin">\[8\]
+<span class="csl-left-margin">\[9\]
+</span><span class="csl-right-inline">K. Remmert, Y. Lin, A. Rainey, M.
+A. Garmendia-Cedillos, S. R. Perati, J. L. Davis, A. M. Blakely, and J.
+M. Hernandez, “Three-dimensional imaging of tumor-bearing tissue using
+the iterative bleaching extends multiplexity approach,” *JoVE*, no. 218,
+p. e67869, 2025, doi:
+[doi:10.3791/67869](https://doi.org/doi:10.3791/67869).
+<span class="csl-block"> \[Corresponding authors: [Jonathan M.
+Hernandez](mailto:jonathan.hernandez@nih.gov)\]</span></span>
+
+<span class="csl-left-margin">\[10\]
 </span><span class="csl-right-inline">E. C. Schrom, E. F. McCaffrey, V.
 Sreejithkumar, A. J. Radtke, H. Ichise, A. Arroyo-Mejias, E. Speranza,
 L. Arakkal, N. Thakur, S. Grant, and R. N. Germain,
@@ -112,7 +131,16 @@ no. 6, p. e2412146122, 2025, doi:
 Ronald N.
 Germain](mailto:ecschrom2@gmail.com,rgermain@niaid.nih.gov)\]</span></span>
 
-<span class="csl-left-margin">\[9\]
+<span class="csl-left-margin">\[11\]
+</span><span class="csl-right-inline">A. E. Tseng, A. O’Connell, A.
+Benhamou, S. Yabaji, I. Kramnik, N. A. Crossland, and E. Speranza,
+“Iterative bleaching extends multiplicity with use of staining
+automation for core facilities,” *JoVE*, no. 222, p. e67853, 2025, doi:
+[doi:10.3791/67853](https://doi.org/doi:10.3791/67853).
+<span class="csl-block"> \[Corresponding authors: [Emily
+Speranza](mailto:sperane@ccf.org)\]</span></span>
+
+<span class="csl-left-margin">\[12\]
 </span><span class="csl-right-inline">H. Ichise, E. Speranza, F. La
 Russa, T. Z. Veres, C. J. Chu, A. Gola, and R. N. Germain, “Rebalancing
 viral and immune damage versus tissue repair prevents death from lethal
@@ -122,7 +150,7 @@ influenza infection,” *bioRxiv*, 2024, doi:
 Ronald N.
 Germain](mailto:hiroshi.ichise@nih.gov,rgermain@niaid.nih.gov)\]</span></span>
 
-<span class="csl-left-margin">\[10\]
+<span class="csl-left-margin">\[13\]
 </span><span class="csl-right-inline">A. Kothurkar, G. S. Patient, N. C.
 L. Noel, A. M. Krzywańska, B. J. Carr, C. J. Chu, and R. B. MacDonald,
 “Iterative bleaching extends multiplexity (IBEX) imaging facilitates
@@ -132,7 +160,7 @@ simultaneous identification of all cell types in the vertebrate retina,”
 <span class="csl-block"> \[Corresponding authors: [Colin J. Chu, Ryan B.
 MacDonald](mailto:colin.chu@ucl.ac.uk,ryan.macdonald@ucl.ac.uk)\]</span></span>
 
-<span class="csl-left-margin">\[11\]
+<span class="csl-left-margin">\[14\]
 </span><span class="csl-right-inline">A. Kothurkar, G. S. Patient, N. C.
 L. Noel, C. J. Chu, and R. B. MacDonald, “Iterative bleaching extends
 multiplexity (IBEX) imaging facilitates simultaneous identification of
@@ -141,7 +169,7 @@ all cell types in the vertebrate retina,” *bioRxiv*, 2024, doi:
 <span class="csl-block"> \[Corresponding authors: [Colin J. Chu, Ryan B.
 MacDonald](mailto:colin.chu@ucl.ac.uk,ryan.macdonald@ucl.ac.uk)\]</span></span>
 
-<span class="csl-left-margin">\[12\]
+<span class="csl-left-margin">\[15\]
 </span><span class="csl-right-inline">C. Y. C. Lee, B. C. Kennedy, N.
 Richoz, I. Dean, Z. K. Tuong, F. Gaspal, Z. Li, C. Willis, T. Hasegawa,
 S. K. Whiteside, D. A. Posner, G. Carlesso, S. A. Hammond, S. J. Dovedi,
@@ -154,7 +182,7 @@ no. 1, 2024, doi:
 Menna R.
 Clatworthy](mailto:d.withers@bham.ac.uk,mrc38@medschl.cam.ac.uk)\]</span></span>
 
-<span class="csl-left-margin">\[13\]
+<span class="csl-left-margin">\[16\]
 </span><span class="csl-right-inline">A. J. Radtke, I. Anidi, L.
 Arakkal, A. Arroyo-Mejias, R. T. Beuschel, K. Börner, C. J. Chu, B.
 Clark, M. R. Clatworthy, J. Colautti, J. Croteau, S. Denha, R. Dever, W.
@@ -173,7 +201,7 @@ together with open science,” *aRxiv*, 2024, doi:
 Ronald N. Germain, Ziv
 Yaniv](mailto:andrea.radtke@nih.gov,rgermain@niaid.nih.gov,zivyaniv@nih.gov)\]</span></span>
 
-<span class="csl-left-margin">\[14\]
+<span class="csl-left-margin">\[17\]
 </span><span class="csl-right-inline">A. J. Radtke, E. Postovalova, A.
 Varlamova, A. Bagaev, M. Sorokina, O. Kudryashova, M. Meerson, M.
 Polyakova, I. Galkin, V. Svekolkin, S. Isaev, D. Wiebe, A. Sharun, A.
@@ -190,7 +218,7 @@ remodeling in high-risk patients,” *Cancer Cell*, no. 3, 42, pp.
 <span class="csl-block"> \[Corresponding authors: [Andrea J.
 Radtke](mailto:andrea.radtke@nih.gov)\]</span></span>
 
-<span class="csl-left-margin">\[15\]
+<span class="csl-left-margin">\[18\]
 </span><span class="csl-right-inline">A. Shapiro, N. W. S. Caballes, R.
 N. Vera, B. S. Klein, P. J. Brennan, Y.-F. Wu, and D. L. Wiesner,
 “<span class="nocase">Sensitization with Fungal Protease Allergen
@@ -201,7 +229,7 @@ doi:
 <span class="csl-block"> \[Corresponding authors: [Darin L.
 Wiesner](mailto:dw667@rutgers.edu)\]</span></span>
 
-<span class="csl-left-margin">\[16\]
+<span class="csl-left-margin">\[19\]
 </span><span class="csl-right-inline">K. S. Stewart, M. D.
 Abdusselamoglu, M. T. Tierney, A. Gola, Y. H. Hur, K. A. U. Gonzales, S.
 Yuan, A. R. Bonny, Y. Yang, N. R. Infarinato, C. J. Cowley, J. M.
@@ -213,7 +241,7 @@ cells tightly regulate dead cell clearance to maintain tissue fitness,”
 Elaine
 Fuchs](mailto:lab@kstewart.org,fuchslb@rockefeller.edu)\]</span></span>
 
-<span class="csl-left-margin">\[17\]
+<span class="csl-left-margin">\[20\]
 </span><span class="csl-right-inline">M. Vierhout, A. Ayoub, P. Ali, V.
 Kumaran, S. Naiel, T. Isshiki, J. F. Koenig, M. R. J. Kolb, and K. Ask,
 “A novel ex vivo approach for investigating profibrotic macrophage
@@ -223,7 +251,7 @@ Res Commun*, vol. 741, p. 151038, 2024, doi:
 <span class="csl-block"> \[Corresponding authors: [Kjetil
 Ask](mailto:askkj@mcmaster.ca)\]</span></span>
 
-<span class="csl-left-margin">\[18\]
+<span class="csl-left-margin">\[21\]
 </span><span class="csl-right-inline">M. Vierhout, A. Ayoub, P. Ali, V.
 Kumaran, S. Naiel, T. Isshiki, J. F. Koenig, M. R. J. Kolb, and K. Ask,
 “A novel ex vivo approach for investigating profibrotic macrophage
@@ -233,7 +261,7 @@ doi:
 <span class="csl-block"> \[Corresponding authors: [Kjetil
 Ask](mailto:askkj@mcmaster.ca)\]</span></span>
 
-<span class="csl-left-margin">\[19\]
+<span class="csl-left-margin">\[22\]
 </span><span class="csl-right-inline">N. Yayon, V. R. Kedlian, L.
 Boehme, C. Suo, B. T. Wachter, R. T. Beuschel, O. Amsalem, K. Polanski,
 S. Koplev, E. Tuck, E. Dann, J. V. Hulle, S. Perera, T. Putteman, A. V.
@@ -250,7 +278,7 @@ spatial human thymus cell atlas mapped to a continuous tissue axis,”
 Andrea J. Radtke, John C. Marioni, Tom Taghon, Sarah A.
 Teichmann](mailto:rgermain@niaid.nih.gov,andrea.radtke@nih.gov,marioni@ebi.ac.uk,tom.taghon@ugent.be,sat1003@cam.ac.uk)\]</span></span>
 
-<span class="csl-left-margin">\[20\]
+<span class="csl-left-margin">\[23\]
 </span><span class="csl-right-inline">L. Arakkal, “IBEX: A user-friendly
 and open-source solution for high-plex immunostaining,” *Nat Rev
 Immunol*, 2023, doi:
@@ -258,7 +286,7 @@ Immunol*, 2023, doi:
 <span class="csl-block"> \[Corresponding authors: [Leanne
 Arakkal](mailto:leanne.arakkal@nih.gov)\]</span></span>
 
-<span class="csl-left-margin">\[21\]
+<span class="csl-left-margin">\[24\]
 </span><span class="csl-right-inline">A.-M. Globig, S. Zhao, J.
 Roginsky, V. I. Maltez, J. Guiza, N. Avina-Ochoa, M. Heeg, F. Araujo
 Hoffmann, O. Chaudhary, J. Wang, G. Senturk, D. Chen, C. O’Connor, S.
@@ -269,7 +297,7 @@ exhaustion,” *Nature*, vol. 622, no. 7982, pp. 383–392, Oct. 2023, doi:
 <span class="csl-block"> \[Corresponding authors: [Susan M.
 Kaech](mailto:skaech@salk.edu)\]</span></span>
 
-<span class="csl-left-margin">\[22\]
+<span class="csl-left-margin">\[25\]
 </span><span class="csl-right-inline">J. Gu, A. Iyer, B. Wesley, A.
 Taglialatela, G. Leuzzi, S. Hangai, A. Decker, R. Gu, N. Klickstein, Y.
 Shuai, K. Jankovic, L. Parker-Burns, Y. Jin, J. Y. Zhang, J. Hong, S.
@@ -280,7 +308,7 @@ multi-omic phenotypes in cells and tissue,” *bioRxiv*, 2023, doi:
 <span class="csl-block"> \[Corresponding authors: [Jellert T.
 Gaublomme](mailto:jg4106@columbia.edu)\]</span></span>
 
-<span class="csl-left-margin">\[23\]
+<span class="csl-left-margin">\[26\]
 </span><span class="csl-right-inline">T. Kudo, A. M. Meireles, R.
 Moncada, Y. Chen, P. Wu, J. Gould, X. Hu, O. Kornfeld, R. Jesudason, C.
 Foo, B. Höckendorf, H. C. Bravo, J. P. Town, R. Wei, A. Rios, V.
@@ -293,7 +321,7 @@ tissues with PerturbView,” *bioRxiv*, 2023, doi:
 <span class="csl-block"> \[Corresponding authors: [Aviv Regev, Eric
 Lubeck](mailto:regeva@gene.com,lubecke@gene.com)\]</span></span>
 
-<span class="csl-left-margin">\[24\]
+<span class="csl-left-margin">\[27\]
 </span><span class="csl-right-inline">E. M. Quardokus, D. C. Saunders,
 E. McDonough, J. W. Hickey, C. Werlein, C. Surrette, P. Rajbhandari, A.
 M. Casals, H. Tian, L. Lowery, E. K. Neumann, F. Björklund, T. V.
@@ -309,7 +337,7 @@ pp. 1174–1178, 2023, doi:
 <span class="csl-block"> \[Corresponding authors: [Andrea J.
 Radtke](mailto:andrea.radtke@nih.gov)\]</span></span>
 
-<span class="csl-left-margin">\[25\]
+<span class="csl-left-margin">\[28\]
 </span><span class="csl-right-inline">E. C. Schrom, E. F. McCaffrey, A.
 J. Radtke, E. Speranza, L. Arakkal, N. Thakur, S. Grant, and R. N.
 Germain, “<span class="nocase">Spatial Patterning Analysis of Cellular
@@ -321,7 +349,7 @@ complex spatial organization at the cell and tissue level,” *bioRxiv*,
 Ronald N.
 Germain](mailto:ecschrom2@gmail.com,rgermain@niaid.nih.gov)\]</span></span>
 
-<span class="csl-left-margin">\[26\]
+<span class="csl-left-margin">\[29\]
 </span><span class="csl-right-inline">Q. Xu, P. Milanez-Almeida, A. J.
 Martins, A. J. Radtke, K. B. Hoehn, C. Oguz, J. Chen, C. Liu, J. Tang,
 G. Grubbs, S. Stein, S. Ramelli, J. Kabat, H. Behzadpour, M. Karkanitsa,
@@ -338,7 +366,7 @@ vol. 24, no. 1, pp. 186–199, 2023, doi:
 Schwartzberg, Kalpana
 Manthiram](mailto:pams@nih.gov,kalpana.manthiram@nih.gov)\]</span></span>
 
-<span class="csl-left-margin">\[27\]
+<span class="csl-left-margin">\[30\]
 </span><span class="csl-right-inline">N. Yayon, V. R. Kedlian, L.
 Boehme, C. Suo, B. Wachter, R. T. Beuschel, O. Amsalem, K. Polanski, S.
 Koplev, E. Tuck, E. Dann, J. V. Hulle, S. Perera, T. Putteman, A. V.
@@ -355,7 +383,7 @@ spatial human thymus cell atlas mapped to a continuous tissue axis,”
 Andrea J. Radtke, John C. Marioni, Tom Taghon, Sarah A.
 Teichmann](mailto:ronald.germain@nih.gov,andrea.radtke@nih.gov,marioni@ebi.ac.uk,tom.taghon@ugent.be,st9@sanger.ac.uk)\]</span></span>
 
-<span class="csl-left-margin">\[28\]
+<span class="csl-left-margin">\[31\]
 </span><span class="csl-right-inline">J. W. Hickey, E. K. Neumann, A. J.
 Radtke, J. M. Camarillo, R. T. Beuschel, A. Albanese, E. McDonough, J.
 Hatler, A. E. Wiblin, J. Fisher, J. Croteau, E. C. Small, A. Sood, R. M.
@@ -369,7 +397,7 @@ Methods*, vol. 19, no. 2, pp. 284–295, 2022, doi:
 Sinem K.
 Saka](mailto:andrea.radtke@nih.gov,sinem.saka@embl.de)\]</span></span>
 
-<span class="csl-left-margin">\[29\]
+<span class="csl-left-margin">\[32\]
 </span><span class="csl-right-inline">A. J. Radtke, C. J. Chu, Z. Yaniv,
 L. Yao, J. Marr, R. T. Beuschel, H. Ichise, A. Gola, J. Kabat, B.
 Lowekamp, E. Speranza, J. Croteau, N. Thakur, D. Jonigk, J. Davis, J. M.
@@ -381,7 +409,7 @@ chemical bleaching method for high-content imaging of diverse tissues,”
 Ronald N.
 Germain](mailto:andrea.radtke@nih.gov,ronald.germain@nih.gov)\]</span></span>
 
-<span class="csl-left-margin">\[30\]
+<span class="csl-left-margin">\[33\]
 </span><span class="csl-right-inline">A. J. Radtke, E. Postovalova, A.
 Varlamova, A. Bagaev, M. Sorokina, O. Kudryashova, M. Meerson, M.
 Polyakova, I. Galkin, V. Svekolkin, S. Isaev, G. Perelman, Y. Lozinsky,
@@ -396,7 +424,7 @@ multiomic atlas of human normal and follicular lymphoma lymph nodes,”
 <span class="csl-block"> \[Corresponding authors: [Andrea J.
 Radtke](mailto:andrea.radtke@nih.gov)\]</span></span>
 
-<span class="csl-left-margin">\[31\]
+<span class="csl-left-margin">\[34\]
 </span><span class="csl-right-inline">N. Richoz, Z. K. Tuong, K. W.
 Loudon, E. Patiño-Martínez, J. R. Ferdinand, A. Portet, K. R. Bashant,
 E. Thevenon, F. Rucci, T. Hoyler, T. Junt, M. J. Kaplan, R. M. Siegel,
@@ -408,7 +436,7 @@ no. 21, p. e159751, 2022, doi:
 Menna R.
 Clatworthy](mailto:richard.siegel@novartis.com,mrc38@cam.ac.uk)\]</span></span>
 
-<span class="csl-left-margin">\[32\]
+<span class="csl-left-margin">\[35\]
 </span><span class="csl-right-inline">E. Madissoon, A. J. Oliver, V.
 Kleshchevnikov, A. Wilbrey-Clark, K. Polanski, A. R. Orsi, L. Mamanova,
 L. Bolt, N. Richoz, R. Elmentaite, J. P. Pett, N. Huang, P. He, M.
@@ -422,7 +450,7 @@ lung reveals a novel immune cell survival niche,” *bioRxiv*, 2021, doi:
 Kerstin B.
 Meyer](mailto:st9@sanger.ac.uk,km16@sanger.ac.uk)\]</span></span>
 
-<span class="csl-left-margin">\[33\]
+<span class="csl-left-margin">\[36\]
 </span><span class="csl-right-inline">Z. K. Tuong, K. W. Loudon, B.
 Berry, N. Richoz, J. Jones, X. Tan, Q. Nguyen, A. George, S. Hori, S.
 Field, A. G. Lynch, K. Kania, P. Coupland, A. Babbage, R. Grenfell, T.
@@ -435,7 +463,7 @@ p. 110132, 2021, doi:
 R.
 Clatworthy](mailto:cem45@hutchison-mrc.cam.ac.uk,mrc38@cam.ac.uk)\]</span></span>
 
-<span class="csl-left-margin">\[34\]
+<span class="csl-left-margin">\[37\]
 </span><span class="csl-right-inline">A. Gola, M. G. Dorrington, E.
 Speranza, C. Sala, R. M. Shih, A. J. Radtke, H. S. Wong, A. P. Baptista,
 J. M. Hernandez, G. Castellani, I. D. C. Fraser, and R. N. Germain,
@@ -445,7 +473,7 @@ J. M. Hernandez, G. Castellani, I. D. C. Fraser, and R. N. Germain,
 <span class="csl-block"> \[Corresponding authors: [Anita Gola, Ronald N.
 Germain](mailto:anitagola2@gmail.com,ronald.germain@nih.gov)\]</span></span>
 
-<span class="csl-left-margin">\[35\]
+<span class="csl-left-margin">\[38\]
 </span><span class="csl-right-inline">A. J. Radtke, E. Kandov, B.
 Lowekamp, E. Speranza, C. J. Chu, A. Gola, N. Thakur, R. Shih, L. Yao,
 Z. R. Yaniv, R. T. Beuschel, J. Kabat, J. Croteau, J. Davis, J. M.
@@ -458,7 +486,7 @@ vol. 117, no. 52, pp. 33455–33465, 2020, doi:
 Ronald N.
 Germain](mailto:andrea.radtke@nih.gov,ronald.germain@nih.gov)\]</span></span>
 
-<span class="csl-left-margin">\[36\]
+<span class="csl-left-margin">\[39\]
 </span><span class="csl-right-inline">E. Speranza, J. N. Purushotham, J.
 R. Port, B. Schwarz, M. Flagg, B. N. Williamson, F. Feldmann, M. Singh,
 L. Pérez-Pérez, G. L. Sturdevant, L. M. Roberts, A. Carmody, J. E.
@@ -471,7 +499,7 @@ e202101314, 2020, doi:
 <span class="csl-block"> \[Corresponding authors: [Emmie de
 Wit](mailto:emmie.dewit@nih.gov)\]</span></span>
 
-<span class="csl-left-margin">\[37\]
+<span class="csl-left-margin">\[40\]
 </span><span class="csl-right-inline">C. R. Stoltzfus, J. Filipek, B. H.
 Gern, B. E. Olin, J. M. Leal, Y. Wu, M. R. Lyons-Cohen, J. Y. Huang, C.
 L. Paz-Stoltzfus, C. R. Plumlee, T. Pöschinger, K. B. Urdahl, M. Perro,
@@ -481,28 +509,3 @@ no. 3, p. 107523, 2020, doi:
 [10.1016/j.celrep.2020.107523](https://doi.org/10.1016/j.celrep.2020.107523).
 <span class="csl-block"> \[Corresponding authors: [Michael Y.
 Gerner](mailto:gernermy@uw.edu)\]</span></span>
-
-<span class="csl-left-margin">\[38\]
-</span><span class="csl-right-inline">B. A. Tseng Anna E. O’Connell
-Aoife, “Iterative bleaching extends multiplicity with use of staining
-automation for core facilities,” *JoVE*, no. 222, p. e67853, 2025, doi:
-[doi:10.3791/67853](https://doi.org/doi:10.3791/67853).
-<span class="csl-block"> \[Corresponding authors: [Emily
-Speranza](mailto:sperane@ccf.org)\]</span></span>
-
-<span class="csl-left-margin">\[39\]
-</span><span class="csl-right-inline">W. M. Lunich Aleksandra Radtke
-Andrea J., “Optimized workflow for iterative bleaching extends
-multiplexity imaging of highly autofluorescent clinical samples,”
-*JoVE*, no. 221, p. e67980, 2025, doi:
-[doi:10.3791/67980](https://doi.org/doi:10.3791/67980).
-<span class="csl-block"> \[Corresponding authors: [Ifeanyichukwu U.
-Anidi](mailto:Ifeanyi.anidi@gmail.com)\]</span></span>
-
-<span class="csl-left-margin">\[40\]
-</span><span class="csl-right-inline">R. A. Remmert Kirsten Lin Yuri,
-“Three-dimensional imaging of tumor-bearing tissue using the iterative
-bleaching extends multiplexity approach,” *JoVE*, no. 218, p. e67869,
-2025, doi: [doi:10.3791/67869](https://doi.org/doi:10.3791/67869).
-<span class="csl-block"> \[Corresponding authors: [Jonathan M.
-Hernandez](mailto:jonathan.hernandez@nih.gov)\]</span></span>
