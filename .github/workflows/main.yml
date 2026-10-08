@@ -23,7 +23,8 @@ on:
   workflow_dispatch:
 
 env: #update the wheel version here whenever the validation or markdown generation scripts are updated
-  KB_UTILITIES_PACKAGE: https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v1.2.0/ibex_imaging_knowledge_base_utilities-1.2.0-py3-none-any.whl
+  KB_UTILITIES_PACKAGE: https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base_utilities/releases/download/v1.2.1/ibex_imaging_knowledge_base_utilities-1.2.1-py3-none-any.whl
+  PYTHON_VERSION: "3.14"
 
 jobs:
   preliminary_test:
@@ -33,10 +34,10 @@ jobs:
     - uses: actions/checkout@v7
       with:
         fetch-depth: 0
-    - name: Set up Python 3.10
+    - name: Set up Python ${{ env.PYTHON_VERSION }}
       uses: actions/setup-python@v7
       with:
-        python-version: "3.10"
+        python-version: ${{ env.PYTHON_VERSION }}
     - name: Run pre-commit tests
       run: |
         pip install pre-commit
@@ -73,10 +74,10 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v7
-    - name: Set up Python 3.10
+    - name: Set up Python ${{ env.PYTHON_VERSION }}
       uses: actions/setup-python@v7
       with:
-        python-version: "3.10"
+        python-version: ${{ env.PYTHON_VERSION }}
     - name: Install dependencies and validate data
       run: | # validate the various data files
         pip install --upgrade pip
@@ -99,10 +100,10 @@ jobs:
     - uses: actions/checkout@v7
       with:
         fetch-depth: 0
-    - name: Set up Python 3.10
+    - name: Set up Python ${{ env.PYTHON_VERSION }}
       uses: actions/setup-python@v7
       with:
-        python-version: "3.10"
+        python-version: ${{ env.PYTHON_VERSION }}
     - name: Install dependencies
       run: |
         brew update
