@@ -52,9 +52,9 @@ layout: default
     <tbody>
         <tr>
             <td><p class="value">37</p></td>
-            <td><p class="value">1321</p></td>
+            <td><p class="value">1328</p></td>
             <td><p class="value">76</p></td>
-            <td><p class="value">62</p></td>
+            <td><p class="value">63</p></td>
         </tr>
         <tr>
             <td><p class="label">Contributors</p></td>
